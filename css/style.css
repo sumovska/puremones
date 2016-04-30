@@ -486,3 +486,14 @@ padding-right:15px;
 	top: 120px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
 	left: -285px;/*position where enlarged image should offset horizontally */
 }
+
+/* ==========================================================================
+   _RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1024px) {
+  #bg, #header, #wrap, #footer { min-width: 320px; }
+  .wrapper { width: auto; max-width: 768px; }
+}
+@media (max-width: 768px) {
+
+}

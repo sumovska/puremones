@@ -1,0 +1,324 @@
+﻿<%@ Master Language="C#" %>
+
+<%@ Register src="Tacker.ascx" tagname="Tacker" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Pure Mones</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+    <div id="header">
+    	<div class="bg">
+    	<div class="wrapper">
+    		
+			<div class="logo">
+				<a href="/"><img src="/images/logo.png" alt="" /></a>
+			</div>
+			
+			<div class="box">
+				<div class="contacts">
+					
+					<img src="/images/contacts.png" alt="Contacts" />
+					
+					
+				</div>
+				
+				<a href="/AddToCart.aspx" class="button">CHECKOUT</a> <br />
+				<script>
+				function gotocart() {
+				window.location='/addtocart.aspx';
+}
+				</script>
+				<iframe src='/cart.html' scrolling=no style='border:none;height:29px;width:170px;margin:0px;padding:0px'></iframe>
+				
+				<div class="social">
+					<div class="social-item">
+					<g:plusone size="small"></g:plusone>
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script>
+					</div>
+					
+
+					<div class="social-item">
+					<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-action="recommend"></div>
+					</div>
+					
+					<div class="social-item">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-via="lapa2112"></a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		</div>
+
+<!-- Begin SupportSuite Javascript Code -->
+<div id='chatdiv'></div><div id='chatdivproactive'></div>
+<script type="text/javascript">
+function loadscript() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'http://smartlifehelp.info/visitor/index.php?_m=livesupport&_a=htmlcode&departmentid=0';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+}
+if(window.addEventListener){window.addEventListener('load',loadscript,false);}
+else if (window.addEventListener){window.attachEvent('onload',loadscript);}
+else window.onload=loadscript;
+</script>
+<!-- End SupportSuite Javascript Code -->
+
+		<div class="wrapper">
+			<div id="main-menu">
+	    		<ul>
+	    			<li><a href="/">Home</a></li>
+	    			<li class="current"><a href="/#PheromonesforMen">Pheromones for Men</a></li>
+	    			<li><a href="/#PheromonesforWomen">Pheromones for Women</a></li>
+	    			<li><a href="/PheromoneScience.aspx">The Science</a></li>
+	    			<li><a href="/PheromoneFAQ.aspx">FAQ</a></li>
+	    			<li class="last-child" style="border:none;"><a href="/AboutUs.aspx">About Us</a></li>
+	    		</ul>
+	    	</div>
+    	</div>
+    </div>
+<a name="Pheromone"></a>
+<div id="wrap" class="wrapper">
+    	<div id="wrap-top"></div>
+	    <div id="wrap-bottom"></div>
+	    
+    	<div id="content">
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+</asp:ContentPlaceHolder>
+<div style='margin-top:20px;float:left'>
+<b>RESULTS DISCLAIMER</b> There are limitations with the effects of pheromone based products like with any other product which interacts with the human body. While studies show pheromones have been effective in connection with the results and parallel the claims as contained on this website, we do not guarantee that such results will be achieved by every person that uses Puremones 100% of the time. Results may vary in different degrees depending upon a variety of factors. 
+For those customers who do not experience positive results we offer 60 days FULL money back guarantee.
+</div>
+
+<uc1:Tacker ID="Tacker1" runat="server" />
+
+<div style='text-align:center'>
+<script type="text/javascript" language="javascript">
+function smartlife(){document.write('Sm'+'artL'+'ife L'+'abs');}
+function eml(){
+var name=('customercare');var at=('@');var domain=('sma'+'rtli'+'felabs');var dot=('.');var ext=('co'+'m');
+return 'mai'+'lt'+'o'+':' + name + at + domain + dot + ext+'?Subject=PureMones Question';
+}
+document.write('<a class="sitelink" onmouseover="javascript:this.href=eml()" onclick="javascript:this.href=eml()" href="/#Contact Us"><img style="margin-top:20px" border=0 src="/images/contact.gif" width=388 height=59/></a>');
+</script>
+</div>
+	    </div>
+	    <div id="sidebar">
+	    	<div class="widget">
+	    		<div class="widget-content">
+                    <a href="/#PheromonesforMen" class="categories for-men" title="Pheromones for men"></a>
+	    			<ul class='sidelinks'>
+	    			<li><a href="/Pure-Passion-Pheromones.aspx#Pheromone"><b>Pure Passion</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Icebreaker-Pheromones.aspx#Pheromone"><b>Pure Icebreaker</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Feel-Pheromones.aspx#Pheromone"><b>Pure Feel</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Macho-Pheromones.aspx#Pheromone"><b>Pure Macho</b> Pheromones</a></li>
+                    </ul>
+
+	    			<a href="/#PheromonesforWomen" class="categories for-women" title="Pheromones for women"></a>
+	    			<ul class='sidelinks'>
+                    <li><a href="/Pure-Flirt-Pheromones.aspx#Pheromone"><b>Pure Flirt</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Love-Pheromones.aspx#Pheromone"><b>Pure Love</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Temptation-Pheromones.aspx#Pheromone"><b>Pure Temptation</b> Pheromones</a></li>
+                    </ul>
+
+	    			<a href="/#SocialPheromones" class="categories for-unisex" title="Unisex Pheromones for Social and Business Situations"></a>
+	    			<ul class='sidelinks'>
+	    			<li><a href="/Pure-Trust-Pheromones.aspx#Pheromone"><b>Pure Trust</b> Pheromones</a></li>
+	    			<li><a href="/Pure-Success-Pheromones.aspx#Pheromone"><b>Pure Success</b> Pheromones</a></li>
+                    </ul>
+	    			
+	    		</div>
+	    	</div>
+	    	
+	    	<div class="widget">
+	    		<h4 class="widget-title">Stories on pheromones reported by</h4>
+	    		<div class="widget-content">
+	    			
+	    			<img src="/images/reported-by.jpg" alt="" />
+	    			<p style="margin-bottom:0px;">*These organizations do not endorse PureMones in any way.</p>
+	    		</div>
+	    	</div>
+	    	<div class="widget">
+		<a href="<%=GetOriginalUrl()%>"><h3><%=MyTitle%></h3></a>
+	    	</div>
+	    	<div class="widget testimonials-widget">
+	    		<h4 class="widget-title">Testimonials</h4>
+	    		<div class="widget-content">
+<b>"It's fun to see the effects on girls"</b><br /><br />
+I had mix results with other brands, but puremones are my favorite pheromones I tested so far. 
+I especially like pure icebreaker, it's fun to see the effects on girls at my school.
+I definitely started to see a great deal of giggling and smiling at me without me trying anything. 
+My perfect dose is 3 dabs, anything over is too much I think. 5 Start product!
+<br /><br />
+	    			<div class="name">Daniel from Pennsylvania</div>
+	    		</div>
+	    	</div>
+<div style='margin-top: -20px;'><a href="#" onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">Important Product Limitations</a></div>
+	    	
+	    	
+	    	<div class="widget verified-widget">
+	    		<div class="widget-content">
+<a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img width="150" height="42" name="trustseal" alt="trust check" src="https://secure.trust-guard.com/seals/435/business/header/" border="0"/></a>
+<a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img width="150" height="42" name="trustseal" alt="certified seal" src="https://secure.trust-guard.com/seals/435/certified/header/" border="0"/></a>
+<a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img width="150" height="42" name="trustseal" alt="privacy certified" src="https://secure.trust-guard.com/seals/435/privacy/header/" border="0"/></a>
+<a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img width="150" height="42" name="trustseal" alt="security certified" src="https://secure.trust-guard.com/seals/435/security/header/" border="0"/></a>
+	    		</div>
+	    	</div>
+
+
+		
+	    </div>
+	    <div class="clear"></div>
+    </div>
+    
+    
+    <div id="footer">
+    	<div class="wrapper">
+	    	<div id="f-menu">
+	    		<ul>
+	    			<li><a href="/">Home</a></li>
+	    			<li class="current"><a href="/#PheromonesforMen">Pheromones for Men</a></li>
+	    			<li><a href="/#PheromonesforWomen">Pheromones for Women</a></li>
+	    			<li><a href="/PheromoneScience.aspx">The Science</a></li>
+	    			<li><a href="/PheromoneFAQ.aspx">FAQ</a></li>
+	    			<li><a href="/AboutUs.aspx" rel='nofollow'>About Us</a></li>
+	    			<li><a target=_blank href="/Privacy.aspx" rel='nofollow'>Privacy Policy</a></li>
+	    			<li><a target=_blank href="/Terms.aspx" rel='nofollow'>Terms of Use</a></li>
+	    			<li><a style='text-decoration:underline;cursor:pointer' "#" onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">DISCLAIMER</a></li>
+
+	    		</ul>
+	    	</div>
+	    	
+		<div>
+		We are not affiliated in any way with Scientific American, CNN, WebMD, APA and Berkeley are all registered trademarks of their respective owners.  
+		</div>
+	    	<div id="copyright"> Copyright &copy; 2012 Ascent Research Group </div>
+	    </div>
+    </div>
+    
+    <!-- - code -->
+
+<iframe src="http://pixel.sitescout.com/ap/4fbffc4557c57d52?if=1" width="0" height="0" frameBorder="0" scrolling="no"></iframe>
+
+
+
+
+<script type="text/javascript">
+(function(d, t) {
+var g = d.createElement(t),
+s = d.getElementsByTagName(t)[0];
+g.src = '//a.remarketstats.com/px/?c=1e2e82e7701bd41';
+s.parentNode.insertBefore(g, s);
+}(document, 'script'));
+</script>
+
+
+
+<script type="text/javascript">
+    adroll_adv_id = "NDWIG2BJNFGTRKMNNM6ZAZ";
+    adroll_pix_id = "WLMALPWJSZGB3GJG3QLD7M";
+    /* OPTIONAL: provide email to improve user identification */
+    /* adroll_email = "username@example.com"; */
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+
+
+</body>
+</html>
+
+
+<script runat=server>
+
+    protected override void OnPreRender(EventArgs e)
+    {
+        base.OnPreRender(e);
+
+        Page.Title = this.MyTitle;
+        
+    }
+
+    public string MyTitle
+    {
+        get
+        {
+            string Keyword = Request["KEYWORD"]; //goodle adwords keyword localhost/k/keyword.aspx
+
+            if (Keyword != null)
+            {
+                return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Keyword.Replace("_"," ").Replace("-"," "));
+            }
+            return Page.Title;
+        }
+    }
+
+    public string TitlePlus(string add)
+    {
+        string t = MyTitle;
+        if (t==null || t == "") return "";
+        return t + add;
+    }
+
+    public string TitlePlus(string add,string tail)
+    {
+        return TitlePlus(add) + tail;
+    }
+    
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+
+        //Table_A.Visible = true; //!Request.Url.Host.ToLower().Contains("cure");
+        //Table_B.Visible = !Table_A.Visible;
+
+        
+    }
+
+    public static string GetOriginalUrl()
+    {
+        return HttpContext.Current.Items["OriginalUrl"].ToString();
+    }
+
+
+</script>
