@@ -434,7 +434,7 @@ img[width='1'] { position: absolute; height: 0; }
   #header { position: relative; z-index: 1000; }
   #header .toggle { margin: auto 0; display: block; width: 20px; height: 11px; border-top: 3px solid #fff; border-bottom: 3px solid #fff; position: absolute; bottom: 10px; right: 15px; cursor: pointer }
   #header .toggle:before { height: 3px; display: block; content: '\0020'; overflow: hidden; background: #fff; position: absolute; top: 4px; left: 0; right: 0; }
-  #footer { height: auto; padding-top: 7px; padding-bottom: 7px; background: rgba(173, 173, 173, 1); }
+  #footer { height: auto; padding-top: 7px; padding-bottom: 7px; background: rgba(173, 173, 173, 1); box-shadow: 0 0 15px 0 rgba(173, 173, 173, 1); }
   #main-menu { margin-top: -2px; display: none; position: absolute; top: 100%; left: 0; right: 0; background: rgba(177, 7, 85, 0.90); }
   .nav-open #main-menu { display: block; }
   .nav-open #main-menu ul { padding: 10px 0; text-align: center; }
@@ -451,7 +451,6 @@ img[width='1'] { position: absolute; height: 0; }
 }
 @media (max-width: 768px) {
   h1, h2, h3, h4, h5, h6 { margin: 10px 0; }
-  br + br { display: none; }
   #header { height: 222px; }
   #header .logo { width: 220px; float: none; margin: 0 auto; }
   #header .logo img { width: 100%; height: auto; }
