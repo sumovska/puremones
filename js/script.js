@@ -4,9 +4,11 @@
 
 $(document).ready(function () {
 
+	/*
 	if ($('#content').height() > $('#sidebar').height()) {
 		$('#sidebar').height($('#content').height());
 	}
+	*/
 
 	/** Toggle Main Menu */
 	$('#header').each(function () {
