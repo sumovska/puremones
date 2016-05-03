@@ -453,14 +453,13 @@ img[width='1'] { position: absolute; height: 0; }
 }
 @media (max-width: 768px) {
 	h1, h2, h3, h4, h5, h6 { margin: 10px 0; }
-	#header { height: 222px; }
-	#header .logo { width: 220px; float: none; margin: 0 auto; }
+	#header { height: 130px; }
+	#header .logo { width: 220px; float: none; margin: 0 auto 10px; }
 	#header .logo img { width: 100%; height: auto; }
 	#header .box { float: none; }
-	#header .box > * { display: none !important; }
-	#header .box .contacts { margin-top: 10px; display: block !important; text-align: center }
+	#header .box > *, #header .box .contacts { display: none !important; }
 	#header .box iframe { margin: 0 auto !important; }
-	#header .bg { height: 180px; }
+	#header .bg { height: 90px; background: none;}
 	ul.arrows li { padding-left: 20px; background-position: 0 0; }
 	ul.arrows li:first-child { margin-top: 0; }
 	.ex-box { padding: 0 15px; }
