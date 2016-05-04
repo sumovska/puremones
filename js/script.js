@@ -16,7 +16,7 @@ $(document).ready(function () {
 		$(this).append('<span class="toggle"></span>');
 		$('.toggle', this).each(function () {
 			function handler(e) {
-				if (!($(e.target).hasClass('nav') || ($(e.target).closest('.nav').length > 0))) {
+				if (!($(e.target).is('#main-menu') || !$(e.target).is('.toggle') || ($(e.target).closest('#main-menu').length > 0))) {
 					_body.removeClass('nav-open');
 					_body.off('click touchstart', handler);
 				}
