@@ -427,6 +427,7 @@ img[width='1'] { position: absolute; height: 0; }
    _RESPONSIVE
    ========================================================================== */
 @media (max-width: 999px) {
+  body { font-size: 13px; }
 	#bg, #header, #wrap, #footer { min-width: 320px; box-sizing: border-box; }
 	.wrapper { width: auto; max-width: 768px; padding-left: 15px; padding-right: 15px; }
 	#wrap { background: transparent; }
