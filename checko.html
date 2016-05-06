@@ -1,0 +1,1987 @@
+<head>
+<base href="https://secure.ultracart.com/" target="_blank">
+<link href="/checkout/checkout.css" rel="stylesheet" type="text/css"><link href="/checkout/checkout2.css" rel="stylesheet" type="text/css"></head>
+
+<!--- CAN MODIFY START------------------------------------------------------->
+
+<style type="text/css">
+BODY
+{
+FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; margin: 0px;background: #384450 url('https://s3.amazonaws.com/ultracartsbg/2454/143276/back_gradientred.png') repeat-x fixed 50% top;
+}
+
+.style2 {color: #CC0000}
+.style4 {color: #CC0000; font-weight: bold; }
+.ucTableBorderBackground{background-color:#37424d};
+.ucTableHeaderBackground,.ucTableHeader{background-color:#8cc1e1}
+.ucFinalizeOrderButton {
+  background-image: url(https://icebreaker4men.com/images/place_your_order.gif);
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 205px;
+}
+
+.ucFinalizeOrderButtonOverlay {
+  background-image: url(https://s3.amazonaws.com/ultracartsbg/2454/143276/place_your_order.png);
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 205px;
+}
+.DANBACK
+{
+width:300px;display:none;background: #FFFFFF url('https://s3.amazonaws.com/ultracartsbg/2454/143276/model-back.jpg')  no-repeat fixed;background-position: left top;
+}
+
+.OUTTERTABLE
+{
+
+}
+.INNERTABLE
+{
+}
+.IMAGEABOVE
+{
+}
+.CARDSIMG
+{
+}
+
+</style>
+
+<BODY>
+
+<table class="OUTTERTABLE" width="100%" border=0 cellpadding="0" cellspacing="0">
+<tr>
+<td>&nbsp;</td>
+<td id='DANBCK' class='DANBACK'>&nbsp;</td>
+<td width=600 bgcolor="#FFFFFF" align=center>
+<table class="INNERTABLE" width="580" border=0 cellpadding="0" cellspacing="0">
+<tr><td align=center>
+
+
+<!--- CAN MODIFY END ------------------------------------------------------->
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/json3.min.js"></script>
+<script type="text/javascript">
+  // Take the version that we just included and scope it locally.  The noConflict will return $ and jQuery to their
+  // original values so that the version of jQuery used for the hosted fields does not conflict with any other existing
+  // version of jQuery or other JS library that use $ that are on the page.
+  var jQueryHostedFields = $.noConflict(true);
+  // Also make sure that we're providing consistent JSON functionality in browsers, but don't pollute existing libraries
+  // by running our version in noConflict mode.  This will restore whatever is there similar to jQuery.
+  // This will also make sure we have a JSON implementation in older versions of IE.
+  var jsonHostedFields = JSON3.noConflict();
+</script>
+<script type="text/javascript" src="/checkout/checkout-hosted-fields-1.0.js?v=15"></script>
+<script type="text/javascript">
+
+  jQueryHostedFields(document).ready(function () {
+    UltraCartHostedFields.setup(jQueryHostedFields, jsonHostedFields, {
+      'sessionCredentials': {
+        'merchantId': '2454',
+        'shoppingCartToken': 'T5VPGSIXKK4A2q50x5N5kkU5Ib0jGr3MPPeKeR4glRpzCmIxuneML\/h9TRig8aFjGWqyV4ecvoy\/2MT7sVUej\/PSE4lj'
+      },
+      'cssUrls': window.ultraCartHostedFieldsCssUrls, // Set this to an array of URLs to inject CSS into the hosted fields
+      'form': '#ucSingle',
+      'hostedFields': {
+        'creditCardNumber': {
+          'selector': '#creditCardNumber',
+          'callback': function (card) {
+            jQueryHostedFields('#creditCardType').val(card.cardType);
+            //----------------------------------------------------------
+            // Perry, 4/5/2016
+            // Adding AddPaymentInfo event.
+            if (window.ultracart && window.ultracart.AnalyticsManager) {
+              window.ultracart.AnalyticsManager.fireEventOnce('AddPaymentInfo', {
+                'content_category': 'Checkout',
+                'content_type': 'product',
+                'content_ids': (window.analytics_item_ids || [])
+              });
+            }
+            //----------------------------------------------------------
+          }
+        },
+        'creditCardCvv2': {
+          'selector': '#creditCardVerificationNumber'
+        }
+      }
+    });
+  });
+
+</script>
+
+<script type='text/javascript' src="/js/NumberFormat.js"></script>
+<script type="text/javascript">
+
+function hideDiv(divId) {
+  if (document.getElementById(divId) != null) {
+    document.getElementById(divId).style.visibility = 'hidden';
+    document.getElementById(divId).style.display = 'none';
+  }
+}
+
+function showDiv(divId) {
+  if (document.getElementById(divId) != null) {
+    document.getElementById(divId).style.visibility = 'visible';
+    document.getElementById(divId).style.display = 'block';
+  }
+}
+
+function hideSpan(divId) {
+  if (document.getElementById(divId) != null) {
+    document.getElementById(divId).style.visibility = 'hidden';
+    document.getElementById(divId).style.display = 'none';
+  }
+}
+
+function showSpan(divId) {
+  if (document.getElementById(divId) != null) {
+    document.getElementById(divId).style.visibility = 'visible';
+    document.getElementById(divId).style.display = 'inline';
+  }
+}
+
+function showHide(checkbox, divId) {
+  if (checkbox.checked) {
+    showDiv(divId);
+  }
+  else {
+    hideDiv(divId);
+  }
+}
+
+var analytics_item_ids = ["6009","6001"];
+
+var stateOptionalCountries = [];
+
+var lastShippingAddress1 = "";
+var lastShippingAddress2 = "";
+var lastShippingZip = "";
+var lastShippingState = "";
+var lastShippingCountry = "";
+
+var lastResidentialAddress = true;
+var lastBusinessAddress = false;
+var showResidentialAddress = false;
+var showAddressType = true;
+
+var shippingUrl = "/checkout/singleCalculateShippingLoad.do?address1=[address1]&address2=[address2]&city=[city]&zip=[zip]&state=[state]&country=[country]&selectedShippingMethod=[selectedShippingMethod]&residentialAddress=[residentialAddress]&businessAddress=[businessAddress]&now=[now]";
+
+var subtotal = 49.94;
+var tax = 0.00;
+var shipping = 20.14;
+var buysafeCost = 0;
+var total = 70.08;
+
+var nf = new NumberFormat(0);
+var nfSuffix = "";
+      nf.setCurrency(true);
+    nf.setCurrencyPosition(nf.LEFT_INSIDE);
+    nf.setCurrencyValue('$');
+    nf.setNegativeFormat(nf.LEFT_DASH);
+    nf.setPlaces(2, true);
+    nf.setSeparators(true, nf.COMMA, nf.PERIOD);
+   
+function nfFormat(v) {
+  nf.setNumber(v);
+  return nf.toFormatted() + nfSuffix;
+}
+
+function changeCurrency(currencyCode) {
+  document.getElementById('changeCurrencyCodeId').value = currencyCode;
+  document.ucSingle.submit();
+}
+
+function updateStateRequirementFlags() {
+  if (document.ucSingle.shippingCountry != null) {
+    // Adjust the shipping state flag
+    var shipToCountry = "";
+
+    if (document.ucSingle.shippingCountry.selectedIndex > -1) {
+      shipToCountry = document.ucSingle.shippingCountry.options[document.ucSingle.shippingCountry.selectedIndex].text;
+    }
+
+    if (stateOptionalCountries.indexOf(shipToCountry) == -1) {
+      showSpan('ucShippingStateRequiredId');
+    } else {
+      hideSpan('ucShippingStateRequiredId');
+    }
+  }
+
+  // Adjust the billing state flag
+  var billToCountry = "";
+
+  if (document.ucSingle.billingCountry.selectedIndex > -1) {
+    billToCountry = document.ucSingle.billingCountry.options[document.ucSingle.billingCountry.selectedIndex].text;
+  }
+
+  if (stateOptionalCountries.indexOf(billToCountry) == -1) {
+    showSpan('ucBillingStateRequiredId');
+  } else {
+    hideSpan('ucBillingStateRequiredId');
+  }
+}
+
+function shippingDestinationChanged(forceUpdate, defaultSelectedShippingMethod) {
+
+  // Retrieve the values from the form
+  var address1 = document.ucSingle.shippingAddress1.value;
+  var address2 = document.ucSingle.shippingAddress2.value;
+  var zip = document.ucSingle.shippingZip.value;
+  var state = document.ucSingle.shippingState.value;
+  var city = document.ucSingle.shippingCity.value;
+  var country = "";
+
+  if (document.ucSingle.shippingCountry.selectedIndex > -1) {
+    country = document.ucSingle.shippingCountry.options[document.ucSingle.shippingCountry.selectedIndex].text;
+  }
+
+  // Since this method is called when the shipping country changes, we also need to adjust the shipping state required flag
+  updateStateRequirementFlags();
+
+  var residentialAddress = lastResidentialAddress;
+  var businessAddress = lastBusinessAddress;
+  if (document.ucSingle.residentialAddress != null) {
+    residentialAddress = document.ucSingle.residentialAddress.checked;
+  }
+  if (document.ucSingle.businessAddress != null) {
+    businessAddress = document.ucSingle.businessAddress.checked;
+  }
+
+  if (!forceUpdate) {
+    // Make sure that everything has been specified
+    if (zip == "" || country == "") {
+      return;
+    }
+    // If the state is blank, see if it's optional for this country.
+    if (state == "" && stateOptionalCountries.indexOf(country) == -1) {
+      return;
+    }
+
+    // Anything change?
+    if (lastResidentialAddress == residentialAddress && lastBusinessAddress == businessAddress && lastShippingAddress2.toUpperCase() == address2.toUpperCase() && lastShippingAddress1.toUpperCase() == address1.toUpperCase() && lastShippingZip.toUpperCase() == zip.toUpperCase() && lastShippingState.toUpperCase() == state.toUpperCase() && lastShippingCountry.toUpperCase() == country.toUpperCase()) {
+      // Everything is the same
+      return;
+    }
+  }
+
+  // What is the currently selected shipping method?
+  var selectedShippingMethod = "";
+  if (defaultSelectedShippingMethod != null) {
+    selectedShippingMethod = defaultSelectedShippingMethod;
+  }
+  try {
+    if (document.ucSingle.shippingMethod != null) {
+      if (document.ucSingle.shippingMethod.length == null) {
+        // Single shipping method configured.
+        if (document.ucSingle.shippingMethod.checked) {
+          selectedShippingMethod = document.ucSingle.shippingMethod.value;
+        }
+      } else {
+        for (var i = 0; i < document.ucSingle.shippingMethod.length; i++) {
+          if (document.ucSingle.shippingMethod[i].checked) {
+            selectedShippingMethod = document.ucSingle.shippingMethod[i].value;
+            break;
+          }
+        }
+      }
+    }
+  } catch (e) {
+  }
+
+  // Update the div to say that we're calculating the stuff
+  document.getElementById('summaryTax').innerHTML = "Calculating";
+  if (document.getElementById('summaryShipping')) {
+    document.getElementById('summaryShipping').innerHTML = "Calculating";
+  }
+
+  // Update the div to say that we're calculating the stuff
+  document.getElementById('shippingPreferences').innerHTML = "Calculating shipping...";
+
+  // Store the fact that we're now requesting these
+  lastShippingAddress1 = address1;
+  lastShippingAddress2 = address2;
+  lastShippingZip = zip;
+  lastShippingState = state;
+  lastShippingCountry = country;
+  lastResidentialAddress = residentialAddress;
+  lastBusinessAddress = businessAddress;
+
+
+  // What should the URL be?
+  var url = shippingUrl;
+
+  url = url.replace(/\[address1\]/g, encodeURIComponent(address1));
+  url = url.replace(/\[address2\]/g, encodeURIComponent(address2));
+  url = url.replace(/\[zip\]/g, encodeURIComponent(zip));
+  url = url.replace(/\[city\]/g, encodeURIComponent(city));
+  url = url.replace(/\[state\]/g, encodeURIComponent(state));
+  url = url.replace(/\[country\]/g, encodeURIComponent(country));
+  url = url.replace(/\[selectedShippingMethod\]/g, encodeURIComponent(selectedShippingMethod));
+  url = url.replace(/\[now\]/g, encodeURIComponent(new Date().toLocaleString()));
+  url = url.replace(/\[residentialAddress\]/g, encodeURIComponent(residentialAddress));
+  url = url.replace(/\[businessAddress\]/g, encodeURIComponent(businessAddress));
+
+//  document.getElementById('debugDiv').innerHTML = url;
+  document.getElementById('shippingCalculator').src = url;
+}
+
+function setShipping(amt) {
+  shipping = Number(amt);
+  updateSummary();
+}
+
+function setTax(amt) {
+  tax = Number(amt);
+  updateSummary();
+}
+
+function updateSummary() {
+  // First recalculate the total
+  total = subtotal + shipping + tax + buysafeCost;
+  total = total.toFixed(2);
+
+  if (document.getElementById('summaryTotal') != null) {
+    document.getElementById('summarySubtotal').innerHTML = nfFormat(subtotal);
+    document.getElementById('summaryTax').innerHTML = nfFormat(tax);
+    if (document.getElementById('summaryShipping')) {
+      document.getElementById('summaryShipping').innerHTML = nfFormat(shipping);
+    }
+    document.getElementById('summaryTotal').innerHTML = nfFormat(total);
+  }
+
+  // Determine if the credit card form should be showing
+      if (total == 0) {
+      hideDiv('ucCreditCardFormTableId');
+      document.getElementById('showCreditCardFormId').value = "false";
+    } else {
+      showDiv('ucCreditCardFormTableId');
+      document.getElementById('showCreditCardFormId').value = "true";
+    }
+  }
+
+</script>
+
+
+<form name="ucSingle" id="ucSingle"
+           action="/checkout/singleSave.do?merchantId=2454"
+           method='post'
+           autocomplete="OFF" enctype="multipart/form-data">
+<div style='display:none; visibility: hidden'>
+  <!-- place hidden fields inside hidden div to avoid xhtml warning about inputs directly inside form -->
+	<input type='hidden' name="showEmail" value="true"/>
+	<input type='hidden' name="showItems" value="true"/>
+	<input type='hidden' name="requireEmail" value="true"/>
+	<input type='hidden' name="requireEmailConfirm" value="false"/>
+	<input type='hidden' name="showReturnEmail" value="false"/>
+	<input type='hidden' name="showShipping" value="true"/>
+	<input type='hidden' name="showAcceptCheckoutTerms" value="false"/>
+	<input type='hidden' name="showCreditCardForm" value="true" id='showCreditCardFormId'/>
+	<input type='hidden' name="showBillingTitle" value="false"/>
+	<input type='hidden' name="requireBillingTitle" value="false"/>
+	<input type='hidden' name="showShippingTitle" value="false"/>
+	<input type='hidden' name="requireShippingTitle" value="false"/>
+	<input type='hidden' name="buysafeBondChange" value="" id='ucBuysafeBondChangeId'/>
+	<input type='hidden' name="changeCurrencyCode" value="" id='changeCurrencyCodeId'/>
+	<input type='hidden' name="usingStoredCard" value="false" id='usingStoredCardId'/>
+	<input type='hidden' name="storedCardMaskedNumber" value=""/>
+	<input type='hidden' name="storedCardExp" value=""/>
+	<input type='hidden' name="advertisingSourceRequired" value="false"/>
+	<input type='hidden' name="showAddressType" value="true"/>
+	<input type='hidden' name="showResidentialAddress" value="false"/>
+  <input type='hidden' name="backupCustomField1" value="NONE"/>
+  <input type='hidden' name="backupCustomField2" value="13242914"/>
+  <input type='hidden' name="backupCustomField3" value=""/>
+  <input type='hidden' name="backupCustomField4" value=""/>
+  <input type='hidden' name="backupCustomField5" value=""/>
+  <input type='hidden' name="backupCustomField6" value=""/>
+  <input type='hidden' name="backupCustomField7" value=""/>
+   </div>
+
+
+<!--
+  this input is here so that the default "enter key" behavior of the browser does an update quantity
+  the field is invisible by design.
+-->
+<input type='submit' name="finalizeOrder" style="visibility: hidden; position:absolute;"/>
+
+<!--- CAN MODIFY START ------------------------------------------------------->
+<img class="IMAGEABOVE" width=600 height=80 alt="" src="/cgi-bin/UCGraphic?merchantId=2454&Filename=HeaderPureMones.jpg"/>
+<!--- CAN MODIFY END ------------------------------------------------------->
+
+
+
+ 
+
+
+
+
+  <!-- View Cart -->
+  <script language='javascript'>
+var d = new Date();utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+var now = new Date(utc + (3600000*-5));var m = now.getHours()*60;m+=now.getMinutes();var x = 17*60 - m;
+var lefthours=Math.floor(x/60);var leftminutes=x % 60;var s = '';if (lefthoursle > 0)  lefthours=lefthours+(lefthours>1 ? ' hours' : ' hour'); else lefthours='';leftminutes=leftminutes+' mins';var we=false;if (now.getDay()==6 || now.getDay()==0) we=true;
+if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/cgi-bin/UCGraphic?merchantId=2454&Filename=samedayshipping.gif\'></td><td style='color:green;padding-left:20px;font-size:12px'>Order within the next <b>" +'  '+ lefthours+' '+leftminutes+'</b> and we\'ll ship your package <b>today</b>.</td></tr></table><br>');
+</script>
+
+  
+
+
+
+<script type="text/javascript">
+  function ucCheckForUpdateQuantitySubmit(e){
+    var evt = e || window.event;
+     // "e" is the standard behavior (FF, Chrome, Safari, Opera),
+     // while "window.event" (or "event") is IE's behavior
+     if ( evt.keyCode === 13 ) {
+       var updateQuantityImage = document.getElementById("ucUpdateQuantityId");
+       if(updateQuantityImage){
+         updateQuantityImage.click();
+         return false;
+       }
+     }
+    return true;
+  }
+</script>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" id="ucViewCartTableId">
+<tr class="ucItemHeaderSpacerRow">
+	<td colspan="3" class="ucTableBorderBackground">
+		<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+	</td>
+</tr>
+<tr class="ucItemHeaderOuterRow">
+	<td width="2" class="ucTableBorderBackground">
+		<img src="/checkout/images/spacer.gif" width="2" height="100%" border="0" alt='' />
+	</td>
+	<td>
+		<table id="ucItemTable2" width="100%" border="0" cellpadding="0" cellspacing="0" class="ucInfoBoxBackground">
+			<tr class="ucTableHeaderBackground ucItemHeaderRow">
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+				<td align="center">
+					<span class="ucTableHeader"></span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+				<td align="center">
+					<span class="ucTableHeader ucItemHeaderItemLabel">Item</span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+				<td align="center">
+					<span class="ucTableHeader ucItemHeaderQuantityLabel">Qty</span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+				<td><span class="ucTableHeader ucItemHeaderDescriptionLabel">Description</span></td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+
+				<td align="center">
+					<span class="ucTableHeader ucItemHeaderOptionsLabel">
+            					</span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt=''/>
+				</td>
+				<td align="right">
+					<span class="ucTableHeader ucItemHeaderAmountLabel">Amount</span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+				<td align="center">
+					<span class="ucTableHeader ucItemHeaderRemoveLabel">Remove</span>
+				</td>
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" height="28" border="0" alt='' />
+				</td>
+			</tr>
+			<tr height="1">
+				<td class="ucTableBorderBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="1" border="0" alt='' />
+				</td>
+			</tr>
+
+			 
+			 
+			<tr height="2" class="ucItemShadedSpacerRow">
+				<td class="ucShoppingBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+				</td>
+			</tr>
+
+			<tr valign="top" class="ucItemRow">
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td class="ucShoppingBackground  ucItemThumbnailCell">
+					<div align="center" class="ucShoppingCartText">
+						              <img class="ucItemThumbnail" src="/thumbs/1332116094113/2454/7/E/80-80-7E6ACD97079AFADC2521A56136CE079B.jpg" width="80" height="80" border="0" alt=''/>
+											</div>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+
+				<td class="ucShoppingBackground ucItemItemIdCell">
+					<div align="center" class="ucShoppingCartText ucItemItemId">6009</div>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="center" class="ucShoppingBackground ucItemQuantityCell">
+																		<input type='text' name="items[0].quantity" value="1" size='3' maxlength='5' class="ucShoppingCartField ucShoppingCartItemQuantity" onkeydown="return ucCheckForUpdateQuantitySubmit(event);"/>
+																<input type='hidden' name="items[0].merchantItemOid" value="3981504"/>
+
+										
+					<input type='hidden' name="items[0].itemIndex" value="1"/>
+					<input type='hidden' name="items[0].viewUrl" value="http://puremones.com"/>
+					<input type='hidden' name="items[0].description" value="Pure Love - Pheromones to Attract Men"/>
+					<input type='hidden' name="items[0].amount" value="24.97"/>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt=''/>
+				</td>
+				<td class="ucShoppingBackground ucItemDescriptionCell">
+					<div class="ucShoppingCartText ucItemDescription">
+											<a class="ucShoppingCartText"  href="http://puremones.com">Pure Love - Pheromones to Attract Men</a>
+										</div>
+				</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+
+				<td class="ucShoppingBackground ucItemOptionsCell">
+				  <!-- Options here -->
+				   				</td>
+
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="right" class="ucShoppingBackground ucItemDiscountCell">
+				  <span class="ucShoppingCartText ucItemDiscount1">
+					<script type="text/javascript">document.write(nfFormat(24.97));</script>
+				  </span>
+				  				</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="center" class="ucShoppingBackground ucItemRemoveCell">
+										<div class="" title='Remove Item From Cart'>
+					  <input type='image' name="items[0].remove" src="/checkout/images/spacer.gif" alt="Remove Item From Cart" border="0" class="ucRemoveButton"/>
+					</div>
+									</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+			</tr>
+			<tr height="2" class='ucItemSpacerRow'>
+				<td class="ucShoppingBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+				</td>
+			</tr>
+			<tr height="1" class="ucItemShadedSpacerRow">
+				<td class="ucTableBorderBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="1" border="0" alt='' />
+				</td>
+			</tr>
+			 
+			<tr height="2" class="ucItemShadedSpacerRow">
+				<td class="ucShoppingBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+				</td>
+			</tr>
+
+			<tr valign="top" class="ucItemRow">
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td class="ucShoppingBackground  ucItemThumbnailCell">
+					<div align="center" class="ucShoppingCartText">
+						              <img class="ucItemThumbnail" src="/thumbs/1332108016167/2454/4/8/80-80-488B019615A11C5EF82B40DE599E58AA.jpg" width="80" height="80" border="0" alt=''/>
+											</div>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+
+				<td class="ucShoppingBackground ucItemItemIdCell">
+					<div align="center" class="ucShoppingCartText ucItemItemId">6001</div>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="center" class="ucShoppingBackground ucItemQuantityCell">
+																		<input type='text' name="items[1].quantity" value="1" size='3' maxlength='5' class="ucShoppingCartField ucShoppingCartItemQuantity" onkeydown="return ucCheckForUpdateQuantitySubmit(event);"/>
+																<input type='hidden' name="items[1].merchantItemOid" value="3981499"/>
+
+										
+					<input type='hidden' name="items[1].itemIndex" value="2"/>
+					<input type='hidden' name="items[1].viewUrl" value="http://puremones/Pure-Icebreaker-Pheromones.aspx"/>
+					<input type='hidden' name="items[1].description" value="Pure Icebreaker - Pheromones to Attract Women"/>
+					<input type='hidden' name="items[1].amount" value="24.97"/>
+				</td>
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt=''/>
+				</td>
+				<td class="ucShoppingBackground ucItemDescriptionCell">
+					<div class="ucShoppingCartText ucItemDescription">
+											<a class="ucShoppingCartText"  href="http://puremones/Pure-Icebreaker-Pheromones.aspx">Pure Icebreaker - Pheromones to Attract Women</a>
+										</div>
+				</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+
+				<td class="ucShoppingBackground ucItemOptionsCell">
+				  <!-- Options here -->
+				   				</td>
+
+
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="right" class="ucShoppingBackground ucItemDiscountCell">
+				  <span class="ucShoppingCartText ucItemDiscount1">
+					<script type="text/javascript">document.write(nfFormat(24.97));</script>
+				  </span>
+				  				</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+				<td align="center" class="ucShoppingBackground ucItemRemoveCell">
+										<div class="" title='Remove Item From Cart'>
+					  <input type='image' name="items[1].remove" src="/checkout/images/spacer.gif" alt="Remove Item From Cart" border="0" class="ucRemoveButton"/>
+					</div>
+									</td>
+				<td width="10" class="ucShoppingBackground">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+			</tr>
+			<tr height="2" class='ucItemSpacerRow'>
+				<td class="ucShoppingBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+				</td>
+			</tr>
+			<tr height="1" class="ucItemShadedSpacerRow">
+				<td class="ucTableBorderBackground" colspan="15">
+					<img src="/checkout/images/spacer.gif" width="100%" height="1" border="0" alt='' />
+				</td>
+			</tr>
+			 
+
+			<tr class="ucShoppingBackground ucItemsSummaryRow">
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" height="40" alt='' />
+				</td>
+				<td colspan="9" valign="middle">
+					<table id="ucItemTable3" border='0' cellpadding='0' cellspacing='0'>
+						<tr>
+							<td>
+							<div class="" title='Continue Shopping'>
+								<input type='image' name="continueShopping" src="/checkout/images/spacer.gif" border="0" class="ucContinueShoppingButton"/>
+							</div>
+							</td>
+							<td width="10">
+								<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+							</td>
+							<td>
+								<div class="" title='Update Quantity'>
+									<input type='image' name="updateQuantity" src="/checkout/images/spacer.gif" alt="Update Qty." border="0" class="ucUpdateButton" id="ucUpdateQuantityId"/>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+
+
+				<td valign="middle" colspan="2" align="right" class="ucShoppingCartText">
+					          <div class="ucItemsSubtotal">
+					Subtotal:
+					<script type="text/javascript">document.write(nfFormat(subtotal));</script>
+          </div>
+				</td>
+
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt=''/>
+				</td>
+
+				<td valign="middle" align="center" class="ucShoppingCartText ucItemsChangeCurrencyCell">
+					 				</td>
+
+				<td width="10">
+					<img src="/checkout/images/spacer.gif" width="10" border="0" alt='' />
+				</td>
+			</tr>
+		</table>
+	</td>
+	<td width="2" class="ucTableBorderBackground">
+		<img src="/checkout/images/spacer.gif" width="2" height="100%" border="0" alt='' />
+	</td>
+</tr>
+<tr class="ucItemsShadedSpacerRow">
+	<td colspan="3" class="ucTableBorderBackground">
+		<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
+	</td>
+</tr>
+</table>  
+
+    
+
+<script type="text/javascript">
+  function ucCheckForCouponSubmit(e){
+    var evt = e || window.event;
+     // "e" is the standard behavior (FF, Chrome, Safari, Opera),
+     // while "window.event" (or "event") is IE's behavior
+     if ( evt.keyCode === 13 ) {
+       var applyCouponImage = document.getElementById("APPLY_COUPON");
+       if(applyCouponImage){
+         applyCouponImage.click();
+         return false;
+       }
+     }
+    return true;
+  }
+</script>
+
+<div id="ucCouponSectionId">
+  <table class="ucCouponTable1" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td width="50%" valign="top"></td>
+      <td width="50%" valign="top" align="right">
+        
+        <!-- Table to add the new coupon -->
+               </td>
+    </tr>
+  </table>
+</div>   
+
+   
+  
+	
+
+  
+      
+
+<div id="ucPayPalCheckoutSection" class="ucColorSubHeader">
+          <input type='image' name="checkoutWithPayPal" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckoutsm.gif"
+           border="0"/>
+              <br/>
+      <input type='image' name="checkoutWithPayPalBml"
+             src="/checkout/images/paypalBml.png" border="0"/>
+      <br/><a target="_blank" href="https://www.securecheckout.billmelater.com/paycapture-content/fetch?hash=AU826TU8&content=/bmlweb/ppwpsiw.html"><img src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_bml_text.png" /></a>
+        <span class="ucPayPalCheckoutTransition1"><br/> - or use our secure order form below. -<br/><br/></span>
+</div>
+  
+  
+
+ 
+  
+  <table id="ucSingleTable1" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+  <td valign="top">
+
+
+  <!-- Outer table around shipping and billing -->
+  <table id="ucSingleTable2" border='0' cellpadding='0' cellspacing=0>
+  <tr>
+  <td valign="top">
+          
+
+
+<div id="shippingTable">
+
+<!-- Shipping Table -->
+<table id="ucShippingTable1" cellspacing="0" cellpadding="0" border="0" width="325">
+<tbody>
+<tr class='ucShippingHeaderRow'>
+  <td><span class="ucColorSubHeader ucShippingHeader">SHIPPING ADDRESS</span></td>
+
+</tr>
+<tr class="ucShippingHeaderSpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="10" border="0" alt=''></td>
+</tr>
+
+
+<!-- Return Email -->
+ 
+<tr class="ucShippingFirstLastNameRow">
+  <td>
+    <table id="ucShippingTable2" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr class="ucShippingFirstLastNameLabelRow">
+        <td>
+          <div class="ucFormLabel ucShippingFirstNameLabel"><span class="ucFormRequired">*</span>First Name:
+          </div>
+        </td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''></td>
+        <td>
+          <div class="ucFormLabel ucShippingLastNameLabel"><span class="ucFormRequired">*</span>Last Name:
+          </div>
+        </td>
+      </tr>
+      <tr class="ucShippingFirstLastNameFieldRow">
+        <td><span class="ucDefault">
+                              <input type='text' value="" name="shippingFirstName" id="shippingFirstName" maxlength="30" class="ucFormField"
+                                         style="width: 120px;" size="12"/>
+                            </span></td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''></td>
+        <td><span class="ucDefault">
+                              <input type='text' value="" name="shippingLastName" maxlength="30" class="ucFormField"
+                                         style="width: 191px;" size="16" id="ucidShippingLastName"/>
+                            </span></td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+ 
+
+<tr class="ucShippingCompanySpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingCompanyLabelRow">
+  <td>
+    <div class="ucFormLabel ucShippingCompanyLabel">Company:</div>
+  </td>
+</tr>
+<tr class="ucShippingCompanyFieldRow">
+  <td><span class="ucDefault">
+                    <input value=""  type='text' name="shippingCompany" maxlength="50" class="ucFormField" style="width: 315px;"
+                               size="30"/>
+                  </span></td>
+</tr>
+<tr class="ucShippingAddress1SpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingAddress1LabelRow">
+  <td>
+    <div class="ucFormLabel ucShippingAddress1Label"><span class="ucFormRequired">*</span>Address 1:
+    </div>
+  </td>
+</tr>
+<tr class="ucShippingAddress1FieldRow">
+  <td><span class="ucDefault">
+                    <input value="" type='text' name="shippingAddress1" id="shippingAddress1" maxlength="32" class="ucFormField" style="width: 315px;"
+                               size="30" onblur="shippingDestinationChanged(false)"/>
+                  </span></td>
+</tr>
+<tr class="ucShippingAddress2SpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingAddress2LabelRow">
+  <td>
+    <div class="ucFormLabel ucShippingAddress2">Address 2:</div>
+  </td>
+</tr>
+<tr class="ucShippingAddress2FieldRow">
+  <td><span class="ucDefault">
+                    <input value=""  type='text' name="shippingAddress2" id="shippingAddress2" maxlength="32" class="ucFormField" style="width: 315px;"
+                               size="30" onblur="shippingDestinationChanged(false)"/>
+                  </span></td>
+</tr>
+<tr class="ucShippingCitySpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingCityLabelRow">
+  <td>
+    <div class="ucFormLabel ucShippingCityLabel"><span class="ucFormRequired">*</span>City:
+    </div>
+  </td>
+</tr>
+<tr class="ucShippingCityFieldRow">
+  <td><span class="ucDefault">
+                    <input value=""  type='text' name="shippingCity" id="shippingCity" maxlength="32" class="ucFormField" style="width: 315px;"
+                               size="30"/>
+                  </span></td>
+</tr>
+<tr class="ucShippingStatePostalSpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingStatePostalRow">
+  <td>
+    <table id="ucShippingTable3" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr class="ucShippingStatePostalLabelRow">
+        <td>
+          <div class="ucFormLabel ucShippingStateLabel"><span class="ucFormRequired" id="ucShippingStateRequiredId">*</span>State/Province/Region:
+          </div>
+        </td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+        <td>
+          <div class="ucFormLabel ucShippingPostalLabel"><span class="ucFormRequired">*</span>Zip/Postal Code:
+          </div>
+        </td>
+      </tr>
+      <tr class="ucShippingStatePostalFieldRow">
+        <td><span class="ucDefault" id="ucidShippingState">
+                            <input type='text' value=""  name="shippingState" id="ucShippingStateFieldId" maxlength="32"
+                                       class="ucFormField"
+                                       style="width: 190px;" size="10" onblur="shippingDestinationChanged(false)"/>
+                          </span></td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+        <td><span class="ucDefault">
+                            <input type='text' value=""  name="shippingZip" id="shippingZip" maxlength="20" class="ucFormField" style="width: 120px;"
+                                       size="10" onblur="shippingDestinationChanged(false)"/>
+                          </span></td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<tr class="ucShippingCountryLabelRow">
+  <td>
+    <div class="ucFormLabel ucShippingCountryLabel" nowrap="">
+      <span class="ucFormRequired">*</span>Country:
+    </div>
+  </td>
+</tr>
+<tr class="ucShippingCountryFieldRow">
+  <td>
+    <select name="shippingCountry" style="width: 315px;" class="ucFormField"
+                 onblur="shippingDestinationChanged(false)" onchange="updateStateRequirementFlags()" id="ucFieldShippingCountry">
+              <option selected='selected'>United States</option>
+              <option >Andorra</option>
+              <option >Australia</option>
+              <option >Austria</option>
+              <option >Belgium</option>
+              <option >Canada</option>
+              <option >China</option>
+              <option >Croatia</option>
+              <option >Cyprus</option>
+              <option >Czech Republic</option>
+              <option >Denmark</option>
+              <option >England</option>
+              <option >Finland</option>
+              <option >France</option>
+              <option >Germany</option>
+              <option >Gibraltar</option>
+              <option >Greece</option>
+              <option >Holland</option>
+              <option >Iceland</option>
+              <option >Ireland</option>
+              <option >Italy</option>
+              <option >Japan</option>
+              <option >Korea, South</option>
+              <option >Liechtenstein</option>
+              <option >Luxembourg</option>
+              <option >Malta</option>
+              <option >Mexico</option>
+              <option >Monaco</option>
+              <option >Netherlands</option>
+              <option >New Zealand</option>
+              <option >Norway</option>
+              <option >Philippines</option>
+              <option >Poland</option>
+              <option >Portugal</option>
+              <option >San Marino</option>
+              <option >Saudi Arabia</option>
+              <option >Scotland</option>
+              <option >Singapore</option>
+              <option >Slovenia</option>
+              <option >Spain</option>
+              <option >Sweden</option>
+              <option >Switzerland</option>
+              <option >Turkey</option>
+              <option >United Arab Emirates</option>
+              <option >United Kingdom</option>
+          </select>
+  </td>
+</tr>
+<tr class="ucShippingPhoneSpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+</tr>
+<tr class="ucShippingPhoneRow">
+  <td>
+    <table id="ucShippingTable4" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr valign="top" class="ucShippingPhoneLabelRow">
+        <td>
+          <div class="ucFormLabel ucShippingPhoneLabel" nowrap="">
+            <span class="ucFormRequired">*</span>Daytime Phone:
+          </div>
+        </td>
+      </tr>
+      <tr valign="top" class="ucShippingPhoneFieldRow">
+        <td><span class="ucDefault">
+                            <input type='text' value=""  name="shippingPhone" maxlength="25" class="ucFormField"
+                                       style="width: 315px;" size="14"/>
+                          </span></td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+      <tr class="ucShippingEmailSpacerRow">
+      <td><img src="/checkout/images/spacer.gif" width="325" height="10" border="0" alt='' /></td>
+    </tr>
+    <tr class="ucShippingEmailLabelRow">
+      <td>
+        <div class="ucFormLabel ucShippingEmailLabel">
+          <span class="ucFormRequired">*</span>          Email Address:
+          <span class="formfieldnote" id="ucEmailNoteId">(for email confirmation)</span>
+        </div>
+
+        <script type='text/javascript' src="/mootools.v1.11.js"></script>
+        <script type='text/javascript'>
+          function ucStoreEmail(merchantId, email) {
+            var storeEmailAjax = new Ajax("/checkout/storeEmailLoad.do?merchantId=" + escape(merchantId) + "&email=" + escape(email), {method: 'get'});
+            storeEmailAjax.request();
+          }
+        </script>
+      </td>
+    </tr>
+    <tr class="ucShippingEmailFieldRow">
+      <td><span class="ucDefault">
+    <input type='text'  value="" name="email" maxlength="100" class="ucFormField" style="width: 315px;" size="30"
+               onblur="ucStoreEmail('2454', this.value)"/>
+  </span></td>
+    </tr>
+
+     
+     
+   
+      <tr class="ucShippingMailingListRow">
+      <td align="left">
+        <span class="ucDefault"><input type='checkbox' name="mailingList" checked='checked'/><span class="ucShippingMailingListLabel">&nbsp;Please send me email updates of news and special offers</span></span>
+      </td>
+    </tr>
+   
+   
+
+    <tr class="ucShippingResidentialSpacerRow">
+    <td><img src="/checkout/images/spacer.gif" width="325" height="10" border="0" alt='' /></td>
+  </tr>
+  <tr class="ucShippingResidentialOuterRow">
+    <td>
+      <table id="ucShippingTable5" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr valign="top" class="ucShippingResidentialRow">
+                      <td valign="middle"><input type='checkbox' name="businessAddress"                                                onclick="shippingDestinationChanged(false);"/></td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td valign="middle">
+              <div class="ucFormLabel ucShippingBusinessLabel"><strong>This address is a business</strong></div>
+            </td>
+                   </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+ 
+</tbody>
+</table>
+</div>
+<!-- /Shipping Table -->       </td>
+  <td valign="top" id="billingTableCell">
+    
+
+<!-- Billing Table -->
+<div id="billingTable" style="visibility: hidden; display: none;">
+
+<table id="ucBillingTable1" cellspacing="0" cellpadding="0" border="0" width="325">
+<tbody>
+<tr class="ucBillingHeaderRow">
+  <td><span class="ucColorSubHeader ucBillingHeader">BILLING ADDRESS</span></td>
+</tr>
+<tr class="ucBillingHeaderSpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="325" height="10" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingNameRow">
+  <td>
+    <table id="ucBillingTable2" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr class="ucBillingNameLabelRow">
+        <td>
+          <div class="ucFormLabel ucBillingFirstNameLabel"><span
+              class="ucFormRequired">*</span>First Name:
+          </div>
+        </td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''/></td>
+        <td>
+          <div class="ucFormLabel ucBillingLastNameLabel"><span
+              class="ucFormRequired">*</span>Last Name:
+          </div>
+        </td>
+      </tr>
+      <tr class="ucBillingNameFieldRow">
+        <td><span class="ucDefault">
+                                <input type='text' value=""
+                                       name="billingFirstName" id="billingFirstName" maxlength="30" class="ucFormField"
+                                       style="width: 120px;" size="12"/>
+                                </span></td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''/></td>
+        <td><span class="ucDefault">
+                                <input type='text' value=""
+                                       name="billingLastName" maxlength="30" class="ucFormField"
+                                       style="width: 191px;" size="16" id="ucidBillingLastName"/>
+                                </span></td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+
+   
+<tr class="ucBillingCompanySpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingCompanyLabelRow">
+  <td>
+    <div class="ucFormLabel ucBillingCompanyLabel">Company:</div>
+  </td>
+</tr>
+<tr class="ucBillingCompanyFieldRow">
+  <td><span class="ucDefault">
+                        <input type='text' value=""
+                               name="billingCompany" id="billingCompany" maxlength="50" class="ucFormField"
+                               style="width: 315px;"
+                               size="30"/>
+                        </span></td>
+</tr>
+<tr class="ucBillingAddress1SpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingAddress1LabelRow">
+  <td>
+    <div class="ucFormLabel ucBillingAddress1Label"><span
+        class="ucFormRequired">*</span>Address 1:
+    </div>
+  </td>
+</tr>
+<tr class="ucBillingAddress1FieldRow">
+  <td>
+    <span class="ucDefault">
+                        <input type='text' value=""
+                               name="billingAddress1" id="billingAddress1" maxlength="32" class="ucFormField"
+                               style="width: 315px;"
+                               size="30"/>
+                        </span>
+  </td>
+</tr>
+<tr class="ucBillingAddress2SpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingAddress2LabelRow">
+  <td>
+    <div class="ucFormLabel ucBillingAddress2Label">Address 2:</div>
+  </td>
+</tr>
+<tr class="ucBillingAddress2FieldRow">
+  <td><span class="ucDefault">
+                        <input type='text' value=""
+                               name="billingAddress2" id="billingAddress2" maxlength="32" class="ucFormField"
+                               style="width: 315px;"
+                               size="30"/>
+                        </span></td>
+</tr>
+<tr class="ucBillingCitySpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingCityLabelRow">
+  <td>
+    <div class="ucFormLabel ucBillingCityLabel"><span class="ucFormRequired">*</span>City:
+    </div>
+  </td>
+</tr>
+<tr class="ucBillingCityFieldRow">
+  <td><span class="ucDefault">
+                        <input type='text' value="" name="billingCity"
+                               id="billingCity" maxlength="32" class="ucFormField" style="width: 315px;"
+                               size="30"/>
+                        </span></td>
+</tr>
+<tr class="ucBillingStatePostalSpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingStatePostalRow">
+  <td>
+    <table id="ucBillingTable3" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+      <tr class="ucBillingStatePostalLabelRow">
+        <td>
+          <div class="ucFormLabel ucBillingStateLabel"><span
+              class="ucFormRequired" id="ucBillingStateRequiredId">*</span>State/Province/Region:
+          </div>
+        </td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''/></td>
+        <td>
+          <div class="ucFormLabel"><span
+              class="ucFormRequired ucBillingPostalLabel">*</span>Zip/Postal Code:
+          </div>
+        </td>
+      </tr>
+      <tr class="ucBillingStatePostalFieldRow">
+        <td> <span class="ucDefault" id="ucidBillingState">
+                                <input type='text' value=""
+                                       name="billingState" id="ucBillingStateFieldId" maxlength="32"
+                                       class="ucFormField"
+                                       style="width: 190px;"/>
+                                </span></td>
+        <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''/></td>
+        <td><span class="ucDefault">
+                                <input type='text' value=""
+                                       name="billingZip" id="billingZip" maxlength="20" class="ucFormField"
+                                       style="width: 120px;" size="10"/>
+                                </span></td>
+      </tr>
+      </tbody>
+    </table>
+  </td>
+</tr>
+<tr class="ucBillingCountrySpacerRow">
+  <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+</tr>
+<tr class="ucBillingCountryLabelRow">
+  <td>
+    <div class="ucFormLabel ucBillingCountryLabel"><span class="ucFormRequired">*</span>Country:
+    </div>
+  </td>
+</tr>
+<tr class="ucBillingCountryFieldRow">
+  <td><span class="ucDefault">
+                        <select name="billingCountry" class="ucFormField" style="width: 315px;"
+                                id="ucFieldBillingCountry" onblur="updateStateRequirementFlags()" onchange="updateStateRequirementFlags()">
+                                                      <option
+                              selected='selected'>United States</option>
+                                                      <option
+                              >Andorra</option>
+                                                      <option
+                              >Australia</option>
+                                                      <option
+                              >Austria</option>
+                                                      <option
+                              >Belgium</option>
+                                                      <option
+                              >Canada</option>
+                                                      <option
+                              >China</option>
+                                                      <option
+                              >Croatia</option>
+                                                      <option
+                              >Cyprus</option>
+                                                      <option
+                              >Czech Republic</option>
+                                                      <option
+                              >Denmark</option>
+                                                      <option
+                              >England</option>
+                                                      <option
+                              >Finland</option>
+                                                      <option
+                              >France</option>
+                                                      <option
+                              >Germany</option>
+                                                      <option
+                              >Gibraltar</option>
+                                                      <option
+                              >Greece</option>
+                                                      <option
+                              >Holland</option>
+                                                      <option
+                              >Iceland</option>
+                                                      <option
+                              >Ireland</option>
+                                                      <option
+                              >Italy</option>
+                                                      <option
+                              >Japan</option>
+                                                      <option
+                              >Korea, South</option>
+                                                      <option
+                              >Liechtenstein</option>
+                                                      <option
+                              >Luxembourg</option>
+                                                      <option
+                              >Malta</option>
+                                                      <option
+                              >Mexico</option>
+                                                      <option
+                              >Monaco</option>
+                                                      <option
+                              >Netherlands</option>
+                                                      <option
+                              >New Zealand</option>
+                                                      <option
+                              >Norway</option>
+                                                      <option
+                              >Philippines</option>
+                                                      <option
+                              >Poland</option>
+                                                      <option
+                              >Portugal</option>
+                                                      <option
+                              >San Marino</option>
+                                                      <option
+                              >Saudi Arabia</option>
+                                                      <option
+                              >Scotland</option>
+                                                      <option
+                              >Singapore</option>
+                                                      <option
+                              >Slovenia</option>
+                                                      <option
+                              >Spain</option>
+                                                      <option
+                              >Sweden</option>
+                                                      <option
+                              >Switzerland</option>
+                                                      <option
+                              >Turkey</option>
+                                                      <option
+                              >United Arab Emirates</option>
+                                                      <option
+                              >United Kingdom</option>
+                                                  </select>
+                        </span></td>
+</tr>
+
+   
+
+</tbody>
+</table>
+
+
+</div>
+<!-- /Billing Table -->  </td>
+  </tr>
+      <tr>
+      <td colspan="2">
+        <!-- billing different box -->
+        <table id="ucSingleTable3" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+          <tr valign="top">
+            <td valign="middle">
+              <input type='checkbox' name="billingDifferent"  onclick="showHide(this, 'billingTable')" id="billingDifferent"/>
+            </td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td valign="middle">
+              <div id="ucSingleDiv-BillingDifferent" class="ucFormLabel">Check here if billing information is <b>different</b> from shipping information.
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+        <script type='text/javascript'>showHide(document.ucSingle.billingDifferent, 'billingTable');</script>
+        <!-- /billing different box -->
+      </td>
+    </tr>
+     </table>
+
+
+  <!-- comments -->
+     <!-- /comments -->
+
+  </td>
+  </tr>
+  </table>
+
+  
+  <br />
+
+  <!-- Shipping and summary table -->
+  <table id="ucSingleTable4" border="0" cellpadding="0" cellspacing="10">
+    <tr>
+      <td valign="top">
+                  
+
+
+
+<!-- Shipping methods -->
+<table border="0" cellpadding="0" cellspacing="0" id="ucShippingPreferenceTableId">
+  <tbody>
+  <tr class="ucShippingMethodHeaderRow">
+    <td><span class="ucColorSubHeader ucShippingMethodHeader">SHIPPING PREFERENCE</span></td>
+  </tr>
+  <tr class="ucShippingMethodSpacerRow">
+    <td><img src="/checkout/images/spacer.gif" width="200" height="10" border="0" alt='' /></td>
+  </tr>
+  <tr class="ucShippingMethodsRow">
+    <td>
+      <div id="shippingPreferences" class="ucFormLabel">
+         
+        <table id="ucShippingMethodTable2" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+
+                    <tr valign="top" class="ucShippingMethodRow">
+            <td>
+              <input type='radio' id='shippingMethod1'
+                          name="shippingMethod"
+                                                    value="USPS: Priority Mail"
+                          onclick="setShipping('6.99'); setTax('0.00');"/>
+            </td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td>
+              <div class="ucFormLabel ucShippingMethodLabel"><img src="/checkout/images/spacer.gif" width="1" height="2"
+                                            border="0" alt='' /><strong>
+                USPS: Priority Mail
+                &nbsp;
+                              </strong></div>
+            </td>
+            <td align="right">
+              <div class="ucFormLabel ucShippingMethodCost"><img src="/checkout/images/spacer.gif" width="1" height="2" border="0" alt='' /><strong>
+                <script type="text/javascript">
+                  document.write(nfFormat(6.99));
+                </script>
+              </strong></div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+          </tr>
+                    <tr valign="top" class="ucShippingMethodRow">
+            <td>
+              <input type='radio' id='shippingMethod2'
+                          name="shippingMethod"
+                                                    value="USPS: First Class"
+                          onclick="setShipping('9.45'); setTax('0.00');"/>
+            </td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td>
+              <div class="ucFormLabel ucShippingMethodLabel"><img src="/checkout/images/spacer.gif" width="1" height="2"
+                                            border="0" alt='' /><strong>
+                USPS: First Class
+                &nbsp;
+                (Tracking Not Available&nbsp;)              </strong></div>
+            </td>
+            <td align="right">
+              <div class="ucFormLabel ucShippingMethodCost"><img src="/checkout/images/spacer.gif" width="1" height="2" border="0" alt='' /><strong>
+                <script type="text/javascript">
+                  document.write(nfFormat(9.45));
+                </script>
+              </strong></div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+          </tr>
+                    <tr valign="top" class="ucShippingMethodRow">
+            <td>
+              <input type='radio' id='shippingMethod3'
+                          name="shippingMethod"
+                           checked='checked'                          value="UPS: Ground"
+                          onclick="setShipping('20.14'); setTax('0.00');"/>
+            </td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td>
+              <div class="ucFormLabel ucShippingMethodLabel"><img src="/checkout/images/spacer.gif" width="1" height="2"
+                                            border="0" alt='' /><strong>
+                UPS: Ground
+                &nbsp;
+                              </strong></div>
+            </td>
+            <td align="right">
+              <div class="ucFormLabel ucShippingMethodCost"><img src="/checkout/images/spacer.gif" width="1" height="2" border="0" alt='' /><strong>
+                <script type="text/javascript">
+                  document.write(nfFormat(20.14));
+                </script>
+              </strong></div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+          </tr>
+                    <tr valign="top" class="ucShippingMethodRow">
+            <td>
+              <input type='radio' id='shippingMethod4'
+                          name="shippingMethod"
+                                                    value="USPS: Express Mail"
+                          onclick="setShipping('23.70'); setTax('0.00');"/>
+            </td>
+            <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt='' /></td>
+            <td>
+              <div class="ucFormLabel ucShippingMethodLabel"><img src="/checkout/images/spacer.gif" width="1" height="2"
+                                            border="0" alt='' /><strong>
+                USPS: Express Mail
+                &nbsp;
+                              </strong></div>
+            </td>
+            <td align="right">
+              <div class="ucFormLabel ucShippingMethodCost"><img src="/checkout/images/spacer.gif" width="1" height="2" border="0" alt='' /><strong>
+                <script type="text/javascript">
+                  document.write(nfFormat(23.70));
+                </script>
+              </strong></div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4"><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
+          </tr>
+                               <tr class="ucShippingMethodsPackingSolutionRow">
+            <td class="ucFormLabel" colspan="3">
+              <a target="_blank" href="/cgi-bin/UCPackingSolution?merchantId=2454">Logged in merchant, view packing solution</a>
+            </td>
+          </tr>
+             
+        </table>
+
+      </div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<!-- /shipping methods -->
+               </td>
+      <td valign="top">
+        
+
+<!-- summary -->
+<div id="ucSummaryTableId">
+  <table>
+    <tr>
+      <td><span class="ucColorSubHeader">SUMMARY</span></td>
+    </tr>
+    <tr>
+      <td><img src="/checkout/images/spacer.gif" width="1" height="10" border="0" alt='' /></td>
+    </tr>
+    <tr>
+      <td>
+        <div class="ucFormLabel">Subtotal:
+        </div>
+      </td>
+      <td align="right"><span id="summarySubtotal" class="ucFormLabel">0.00</span></td>
+    </tr>
+         <tr>
+      <td>
+        <div class="ucFormLabel">Tax:</div>
+      </td>
+      <td align="right">
+        <div id="summaryTax" class="ucFormLabel">0.00</div>
+      </td>
+    </tr>
+            <tr>
+          <td>
+            <div class="ucFormLabel">Shipping:
+            </div>
+          </td>
+          <td align="right">
+            <div id="summaryShipping" class="ucFormLabel">0.00</div>
+          </td>
+        </tr>
+              <tr>
+      <td>
+        <div class="ucFormLabel">Total:</div>
+      </td>
+      <td align="right">
+        <div id="summaryTotal" class="ucFormLabel">0.00</div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- /summary -->
+      </td>
+    </tr>
+  </table>
+
+
+   
+
+   
+   
+  <br />
+
+  
+
+  <table id="ucSingleTable5" cellspacing="0" cellpadding="0" border="0" width="250">
+  <tbody>
+  <tr>
+    <td>
+               
+
+
+
+ 
+<table cellspacing="0" cellpadding="0" border="0" width="250" id="ucCreditCardFormTableId"
+       >
+  <tbody>
+  <tr class="ucCreditCardHeaderRow">
+    <td><span
+        class="ucColorSubHeader ucCreditCardHeader">CREDIT CARD PAYMENT</span>
+    </td>
+  </tr>
+  <tr class="ucCreditCardSpacerRow">
+    <td><img src="/checkout/images/spacer.gif" width="250" height="10" border="0" alt=''/></td>
+  </tr>
+  <tr class="ucCreditCardTypeLabelRow">
+    <td>
+      <div class="ucFormLabel ucCreditCardTypeLabel"><span
+          class="ucFormRequired">*</span>Credit Card Type:
+      </div>
+    </td>
+  </tr>
+  <tr class="ucCreditCardTypeFieldRow">
+    <td colspan="3"><span class="ucDefault">
+      <select name="creditCardType" class="ucFormField" style="width: 250px;">
+                  <option
+            selected='selected'            value=""></option>
+                  <option
+                        value="AMEX">American Express</option>
+                  <option
+                        value="Discover">Discover</option>
+                  <option
+                        value="MasterCard">MasterCard</option>
+                  <option
+                        value="VISA">Visa</option>
+              </select>
+      </span></td>
+  </tr>
+  <tr class="ucCreditCardSpacerRow">
+    <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+  </tr>
+  <tr class="ucCreditCardNumberLabelRow">
+    <td>
+      <div class="ucFormLabel ucCreditCardNumberLabel"><span
+          class="ucFormRequired">*</span>Credit Card #:
+      </div>
+    </td>
+  </tr>
+  <tr class="ucCreditCardNumberFieldRow">
+    <td class="ucDefault">
+      <input type='text' value="" name="creditCardNumber"
+             id="creditCardNumber" maxlength="20" class="ucFormField" style="width: 250px;" size="30"/>
+    </td>
+  </tr>
+  <tr class="ucCreditCardSpacerRow">
+    <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+  </tr>
+  <tr class="ucCreditCardExpirationDateLabelRow">
+    <td>
+      <div class="ucFormLabel ucCreditCardExpirationDateLabel">
+        <span class="ucFormRequired">*</span>Expiration Date:
+      </div>
+    </td>
+  </tr>
+  <tr class="ucCreditCardExpirationDateFieldRow">
+    <td>
+      <table id="ucCreditCardTable1" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+          <td><span class="ucDefault">
+              <select name="creditCardExpMonth" id="creditCardExpMonth" class="ucFormField" style="width: 125px;">
+                                  <option
+                    selected='selected'                    value=""></option>
+                                  <option
+                                        value="1">01 - January</option>
+                                  <option
+                                        value="2">02 - February</option>
+                                  <option
+                                        value="3">03 - March</option>
+                                  <option
+                                        value="4">04 - April</option>
+                                  <option
+                                        value="5">05 - May</option>
+                                  <option
+                                        value="6">06 - June</option>
+                                  <option
+                                        value="7">07 - July</option>
+                                  <option
+                                        value="8">08 - August</option>
+                                  <option
+                                        value="9">09 - September</option>
+                                  <option
+                                        value="10">10 - October</option>
+                                  <option
+                                        value="11">11 - November</option>
+                                  <option
+                                        value="12">12 - December</option>
+                              </select>
+              </span></td>
+          <td><img src="/checkout/images/spacer.gif" width="4" height="1" border="0" alt=''/></td>
+          <td><span class="ucDefault">
+              <select name="creditCardExpYear" id="creditCardExpYear" class="ucFormField" style="width: 120px;">
+                                  <option
+                    selected='selected'                    value=""></option>
+                                  <option
+                                        value="2016">2016</option>
+                                  <option
+                                        value="2017">2017</option>
+                                  <option
+                                        value="2018">2018</option>
+                                  <option
+                                        value="2019">2019</option>
+                                  <option
+                                        value="2020">2020</option>
+                                  <option
+                                        value="2021">2021</option>
+                                  <option
+                                        value="2022">2022</option>
+                                  <option
+                                        value="2023">2023</option>
+                                  <option
+                                        value="2024">2024</option>
+                                  <option
+                                        value="2025">2025</option>
+                                  <option
+                                        value="2026">2026</option>
+                                  <option
+                                        value="2027">2027</option>
+                                  <option
+                                        value="2028">2028</option>
+                                  <option
+                                        value="2029">2029</option>
+                                  <option
+                                        value="2030">2030</option>
+                                  <option
+                                        value="2031">2031</option>
+                                  <option
+                                        value="2032">2032</option>
+                                  <option
+                                        value="2033">2033</option>
+                                  <option
+                                        value="2034">2034</option>
+                                  <option
+                                        value="2035">2035</option>
+                                  <option
+                                        value="2036">2036</option>
+                                  <option
+                                        value="2037">2037</option>
+                                  <option
+                                        value="2038">2038</option>
+                                  <option
+                                        value="2039">2039</option>
+                                  <option
+                                        value="2040">2040</option>
+                              </select>
+              </span></td>
+        </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+        <tr class="ucCreditCardSpacerRow">
+      <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
+    </tr>
+    <tr class="ucCreditCardVerificationNumberLabelRow">
+      <td>
+        <div class="ucFormLabel ucCreditCardVerificationNumberLabel">
+          <span class="ucFormRequired">*</span>Card Verification #:
+        </div>
+      </td>
+    </tr>
+    <tr class="ucCreditCardVerificationNumberFieldRow">
+      <td class="ucDefault">
+        <input type='text' value=""
+             name="creditCardVerificationNumber" id="creditCardVerificationNumber" maxlength="4" class="ucFormField"
+             style="width: 100px;"
+             size="30"/>
+        <span class="ucSmall ucCreditCardCvvHelp">&nbsp;
+          <script type="text/javascript">
+            function openCvv2Window() {
+              var popupWin = window.open('/checkout/cvv2/both.jsp', 'EIN', 'scrollbars,resizable,toolbar,width=600,height=450,left=50,top=50');
+              popupWin.focus();
+            }
+            document.write("<a href=\"javascript:openCvv2Window();\">help finding this number<\/a>");
+          </script>
+          <noscript>
+            <a href="/checkout/cvv2/both.jsp"
+               target="_blank">help finding this number</a>
+          </noscript>
+        </span>
+      </td>
+    </tr>
+     
+     
+  </tbody>
+</table>
+           </td>
+  </tr>
+  <tr>
+    <td>&nbsp;
+      <script>
+function getElementsByClass(searchClass,node,tag){var classElements=new Array();if(node==null)node=document;if(tag==null)tag='*';var els=node.getElementsByTagName(tag);var elsLen=els.length;var pattern=new RegExp("(^|\\s)"+searchClass+"(\\s|$)");for(i=0,j=0;i<elsLen;i++){if(pattern.test(els[i].className)){classElements[j]=els[i];j++}}return classElements}try{var i;var els=getElementsByClass('ucErrorMessageText',document,'span');var em="";var badcc=false;var bademail="";for(i=0;i<els.length;i++){var e=els[i];em=em+e.innerText+"|";if(e.innerHTML.indexOf('specify your valid email address')>0)bademail="e="+encodeURIComponent(document.getElementById('email').value);if (e.innerText.indexOf('specify')<0) badcc=true;}if (em!="" || bademail!=""){var img=new Image();img.src="https://icebreaker4men.com/recordemail.aspx?VID=13242914&em="+encodeURIComponent(em)+"&"+bademail;}}catch(err){}
+</script>
+
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" align="right">
+      <div class="">
+        <input type='image' name="finalizeOrder" id="finalizeOrder" src="/checkout/images/spacer.gif" border="0" alt="Finalize Order"
+                    class="ucFinalizeOrderButton"/>
+      </div>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+
+  <!-- /Shipping and summary table -->
+  <iframe name="shippingCalculator" id="shippingCalculator" height="0" width="0" frameborder="0"
+          src="/checkout/images/spacer.gif">
+  </iframe>
+   
+
+  <span id="debugDiv"></span>
+
+  <br>
+<br>
+<img class="CARDSIMG" src="/cgi-bin/UCGraphic?merchantId=2454&Filename=cards.gif" width="239" height="35">
+
+
+  <script type="text/javascript">
+    updateStateRequirementFlags();
+    updateSummary();
+  </script>
+
+  </form>
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
+  <script type="text/javascript" src="/ultracart_analytics_manager_1.0.js"></script>
+
+  
+
+ 
+
+
+  
+
+
+ 
+
+
+
+
+
+     
+
+
+
+
+
+
+   
+
+      
+<!--- CAN MODIFY START ------------------------------------------------------->
+
+</td>
+</tr>
+</table>
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+<span id='displaydaniela'></span>
+
+ <script>
+ function doResize()
+ {
+ //Detect IE5.5+
+version=0
+if (navigator.appVersion.indexOf("MSIE")!=-1){
+temp=navigator.appVersion.split("MSIE")
+version=parseFloat(temp[1])
+}
+
+ 
+  var d = document.getElementById('DANBCK');
+
+                      var dontdisplaydaniela = document.getElementById('nodaniela');
+  
+  if (dontdisplaydaniela!=null || getBrowserWidth()<910 || version<5.5) d.style.display='None';
+  else d.style.display='block';
+  
+  var oElement = d;
+  var oPos=0;
+  while( oElement.offsetParent ) {
+    oPos += oElement['offset'+'Left'];
+    oElement = oElement.offsetParent;
+  }
+if (version!=6)    d.style.backgroundPositionX = oPos;
+
+
+ }
+
+function getBrowserWidth()
+{
+  if (window.innerWidth)
+  {
+    return window.innerWidth;
+  }
+  else if (document.documentElement && document.documentElement.clientWidth != 0)
+  {
+    return document.documentElement.clientWidth;
+  }
+  else if (document.body)
+  {
+    return document.body.clientWidth;
+  }
+  
+  return 0;
+};
+
+window.onresize = doResize;
+doResize();
+</script>
+
+<script language="JavaScript" type="text/javascript">
+COT("/ultracart/secure_site_new.gif", "SC2", "none");
+</script>
+
+<img src='https://icebreaker4men.com/trackimg.aspx?goal=4&VID=13242914' width=1 height=1>
+
+
+<script>
+function Tckinput(gol) {var img = new Image();img.src='https://icebreaker4men.com/trackimg.aspx?goal='+gol+'&VID=13242914';}
+function Tckinput8() {Tckinput(8)}
+document.forms[0].creditCardNumber.onchange=Tckinput8;
+var over100=false;
+window.onscroll = function () { if ( document.body.scrollTop>400 && !over100) {over100=true;Tckinput(9)}}
+Tckinput(10);
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2737147-44']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+ </BODY>
+</HTML>
+<!--- CAN MODIFY END ------------------------------------------------------->
