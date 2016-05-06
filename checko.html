@@ -3,7 +3,7 @@
 <link href="/checkout/checkout.css" rel="stylesheet" type="text/css"><link href="/checkout/checkout2.css" rel="stylesheet" type="text/css"></head>
 
 <!--- CAN MODIFY START------------------------------------------------------->
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
 BODY
 {
@@ -45,7 +45,24 @@ width:300px;display:none;background: #FFFFFF url('https://s3.amazonaws.com/ultra
 .CARDSIMG
 {
 }
-
+/* Responsive */
+	@media (max-width: 768px) {
+		.IMAGEABOVE {max-width: 100%;}
+		td[width="600"], td[width="600"], .INNERTABLE {max-width: 100%; width: auto;}
+		.ucItemHeaderOuterRow { display: block; overflow: hidden; overflow-x: scroll; }
+		.OUTTERTABLE > tbody > tr > td:first-of-type, .OUTTERTABLE > tbody > tr > td:last-of-type { display: none;}
+		.ucTableBorderBackground { display: none;}
+		.ucColorSubHeader * {
+			margin: 0 auto;
+			text-align: center;
+		}
+		.OUTTERTABLE, .OUTTERTABLE > tbody, .OUTTERTABLE > tbody > tr,
+		.OUTTERTABLE > tbody > tr > td, .OUTTERTABLE > tbody > tr > td > .INNERTABLE, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody,
+		.OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr > td { display: block;}
+	    #ucSingleTable4, #ucSingleTable4 > tbody, #ucSingleTable4 > tbody > tr, #ucSingleTable4 > tbody > tr > td { display: block;}
+		#ucSingleTable4 > tbody > tr > td { padding: 0 10px;}
+		#ucSingleTable5 { width: 100%;padding: 0 10px;}
+	}
 </style>
 
 <BODY>
