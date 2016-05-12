@@ -46,23 +46,52 @@ width:300px;display:none;background: #FFFFFF url('https://s3.amazonaws.com/ultra
 {
 }
 /* Responsive */
-	@media (max-width: 768px) {
-		.IMAGEABOVE {max-width: 100%;}
-		td[width="600"], td[width="600"], .INNERTABLE {max-width: 100%; width: auto;}
-		.ucItemHeaderOuterRow { display: block; overflow: hidden; overflow-x: scroll; }
-		.OUTTERTABLE > tbody > tr > td:first-of-type, .OUTTERTABLE > tbody > tr > td:last-of-type { display: none;}
-		.ucTableBorderBackground { display: none;}
-		.ucColorSubHeader * {
-			margin: 0 auto;
-			text-align: center;
-		}
-		.OUTTERTABLE, .OUTTERTABLE > tbody, .OUTTERTABLE > tbody > tr,
-		.OUTTERTABLE > tbody > tr > td, .OUTTERTABLE > tbody > tr > td > .INNERTABLE, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody,
-		.OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr > td { display: block;}
-	    #ucSingleTable4, #ucSingleTable4 > tbody, #ucSingleTable4 > tbody > tr, #ucSingleTable4 > tbody > tr > td { display: block;}
-		#ucSingleTable4 > tbody > tr > td { padding: 0 10px;}
-		#ucSingleTable5 { width: 100%;padding: 0 10px;}
-	}
+body{ -webkit-text-size-adjust: none; }
+.ucShoppingCartField, .ucFormField { border: 1px solid #bfbfbf; border-radius: 0; background: #fff; -webkit-appearance: none; }
+@media (max-width: 1024px) {
+	input[type="radio"], input[type="checkbox"] { margin: 0 4px 6px 0; position: relative; top: 1px; }
+	input[type="radio"] { top: -2px; }
+}
+@media (max-width: 600px) {
+	html { width: 100%; height: 100%; overflow: hidden; }
+	body { width: 100%; height: 100%; min-width: 320px; font-size: 14px; background: #fff; overflow: hidden; overflow-y: scroll; }
+	.IMAGEABOVE { max-width: 100%; width: 100%; height: auto; max-height: 80px; }
+	td[width="600"], td[width="600"], .INNERTABLE { max-width: 100%; width: auto; }
+	.OUTTERTABLE > tbody > tr > td:first-of-type, .OUTTERTABLE > tbody > tr > td:last-of-type { display: none; }
+	.ucTableBorderBackground { display: none; }
+	.ucColorSubHeader * { margin: 0 auto; text-align: center; }
+	.OUTTERTABLE, .OUTTERTABLE > tbody, .OUTTERTABLE > tbody > tr,
+	.OUTTERTABLE > tbody > tr > td, .OUTTERTABLE > tbody > tr > td > .INNERTABLE, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody,
+	.OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr, .OUTTERTABLE > tbody > tr > td > .INNERTABLE > tbody > tr > td { display: block; }
+	.ucTableHeaderBackground td { padding: 4px 2px; }
+	#ucSingleTable1, #ucSingleTable2, #ucShippingTable1, #ucShippingTable2, #ucShippingTable3, #ucShippingTable4 { width: 100% !important; }
+	#ucBillingTable1, #ucBillingTable2, #ucBillingTable3, #ucBillingTable4 { width: 100% !important; }
+	#ucShippingTable1 img[width="325"], #ucShippingTable1 select { width: 100% !important; }
+	#ucShippingTable1 { max-width: 400px; }
+	#ucSingleTable4 > tbody > tr > td { padding: 0; }
+	#ucSingleTable5 { width: 100%; padding: 0 10px; }
+	.ucItemHeaderOuterRow > td { width: 100vw; display: block !important; overflow: hidden; overflow-x: scroll; }
+	.ucItemHeaderOuterRow > td.ucTableBorderBackground { display: none !important; }
+	#ucItemTable2 { width: 100% !important; margin-bottom: 10px; }
+	.ucShippingMailingListLabel { /*font-size: 13px;*/ margin-top: 10px; }
+	#ucShippingTable1 { font-size: 12px; }
+	.ucShoppingBackground { padding: 2px; }
+	.ucShoppingBackground.ucItemOptionsCell { width: 1px !important; padding: 0; }
+	.ucShoppingCartField { width: 20px; text-align: center; }
+	td[width='10'] { width: 1px !important; padding: 0 !important; text-indent: -1000px; }
+	td[width='10'] img { width: 1px !important; position: absolute; height: 1px !important; display: block !important; }
+	.ucTableHeaderBackground td { padding: 4px; }
+	:not(td).ucFormLabel { padding: 1px 0; display: inline-block; font-size: 13px; line-height: normal; }
+	.ucShippingMailingListLabel, .ucShippingBusinessLabel, #ucSingleDiv-BillingDifferent { font-size: 12px; }
+	.ucShippingMailingListRow > td { padding-top: 10px; }
+	.ucFormField { width: 100% !important; padding: 3px 4px; border: 1px solid #000; display: block; font-size: 13px; }
+	#ucSingleTable5 tr:last-child td { text-align: center !important; }
+	#ucSingleTable4 { margin-bottom: 140px; position: relative; float: left; }
+	#ucSummaryTableId { position: absolute; top: 100%; left: 5px; }
+}
+@media (max-width: 450px) {
+	.ucItemThumbnail { width: 50px !important; height: auto !important; display: block; }
+}
 </style>
 
 <BODY>
@@ -203,7 +232,7 @@ var nfSuffix = "";
     nf.setNegativeFormat(nf.LEFT_DASH);
     nf.setPlaces(2, true);
     nf.setSeparators(true, nf.COMMA, nf.PERIOD);
-   
+
 function nfFormat(v) {
   nf.setNumber(v);
   return nf.toFormatted() + nfSuffix;
@@ -433,7 +462,7 @@ function updateSummary() {
 
 
 
- 
+
 
 
 
@@ -446,7 +475,7 @@ var lefthours=Math.floor(x/60);var leftminutes=x % 60;var s = '';if (lefthoursle
 if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/cgi-bin/UCGraphic?merchantId=2454&Filename=samedayshipping.gif\'></td><td style='color:green;padding-left:20px;font-size:12px'>Order within the next <b>" +'  '+ lefthours+' '+leftminutes+'</b> and we\'ll ship your package <b>today</b>.</td></tr></table><br>');
 </script>
 
-  
+
 
 
 
@@ -531,8 +560,8 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 				</td>
 			</tr>
 
-			 
-			 
+
+
 			<tr height="2" class="ucItemShadedSpacerRow">
 				<td class="ucShoppingBackground" colspan="15">
 					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
@@ -564,7 +593,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 																		<input type='text' name="items[0].quantity" value="1" size='3' maxlength='5' class="ucShoppingCartField ucShoppingCartItemQuantity" onkeydown="return ucCheckForUpdateQuantitySubmit(event);"/>
 																<input type='hidden' name="items[0].merchantItemOid" value="3981504"/>
 
-										
+
 					<input type='hidden' name="items[0].itemIndex" value="1"/>
 					<input type='hidden' name="items[0].viewUrl" value="http://puremones.com"/>
 					<input type='hidden' name="items[0].description" value="Pure Love - Pheromones to Attract Men"/>
@@ -618,7 +647,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 					<img src="/checkout/images/spacer.gif" width="100%" height="1" border="0" alt='' />
 				</td>
 			</tr>
-			 
+
 			<tr height="2" class="ucItemShadedSpacerRow">
 				<td class="ucShoppingBackground" colspan="15">
 					<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
@@ -650,7 +679,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 																		<input type='text' name="items[1].quantity" value="1" size='3' maxlength='5' class="ucShoppingCartField ucShoppingCartItemQuantity" onkeydown="return ucCheckForUpdateQuantitySubmit(event);"/>
 																<input type='hidden' name="items[1].merchantItemOid" value="3981499"/>
 
-										
+
 					<input type='hidden' name="items[1].itemIndex" value="2"/>
 					<input type='hidden' name="items[1].viewUrl" value="http://puremones/Pure-Icebreaker-Pheromones.aspx"/>
 					<input type='hidden' name="items[1].description" value="Pure Icebreaker - Pheromones to Attract Women"/>
@@ -704,7 +733,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 					<img src="/checkout/images/spacer.gif" width="100%" height="1" border="0" alt='' />
 				</td>
 			</tr>
-			 
+
 
 			<tr class="ucShoppingBackground ucItemsSummaryRow">
 				<td width="10">
@@ -760,9 +789,9 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 		<img src="/checkout/images/spacer.gif" width="100%" height="2" border="0" alt='' />
 	</td>
 </tr>
-</table>  
+</table>
 
-    
+
 
 <script type="text/javascript">
   function ucCheckForCouponSubmit(e){
@@ -785,19 +814,19 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
     <tr>
       <td width="50%" valign="top"></td>
       <td width="50%" valign="top" align="right">
-        
+
         <!-- Table to add the new coupon -->
                </td>
     </tr>
   </table>
-</div>   
+</div>
 
-   
-  
-	
 
-  
-      
+
+
+
+
+
 
 <div id="ucPayPalCheckoutSection" class="ucColorSubHeader">
           <input type='image' name="checkoutWithPayPal" src="https://www.paypal.com/en_US/i/btn/btn_xpressCheckoutsm.gif"
@@ -808,11 +837,11 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
       <br/><a target="_blank" href="https://www.securecheckout.billmelater.com/paycapture-content/fetch?hash=AU826TU8&content=/bmlweb/ppwpsiw.html"><img src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_bml_text.png" /></a>
         <span class="ucPayPalCheckoutTransition1"><br/> - or use our secure order form below. -<br/><br/></span>
 </div>
-  
-  
 
- 
-  
+
+
+
+
   <table id="ucSingleTable1" border="0" cellspacing="0" cellpadding="10">
   <tr>
   <td valign="top">
@@ -822,7 +851,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   <table id="ucSingleTable2" border='0' cellpadding='0' cellspacing=0>
   <tr>
   <td valign="top">
-          
+
 
 
 <div id="shippingTable">
@@ -840,7 +869,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 
 
 <!-- Return Email -->
- 
+
 <tr class="ucShippingFirstLastNameRow">
   <td>
     <table id="ucShippingTable2" border="0" cellspacing="0" cellpadding="0">
@@ -872,7 +901,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   </td>
 </tr>
 
- 
+
 
 <tr class="ucShippingCompanySpacerRow">
   <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt='' /></td>
@@ -1076,16 +1105,16 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   </span></td>
     </tr>
 
-     
-     
-   
+
+
+
       <tr class="ucShippingMailingListRow">
       <td align="left">
         <span class="ucDefault"><input type='checkbox' name="mailingList" checked='checked'/><span class="ucShippingMailingListLabel">&nbsp;Please send me email updates of news and special offers</span></span>
       </td>
     </tr>
-   
-   
+
+
 
     <tr class="ucShippingResidentialSpacerRow">
     <td><img src="/checkout/images/spacer.gif" width="325" height="10" border="0" alt='' /></td>
@@ -1105,13 +1134,13 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
       </table>
     </td>
   </tr>
- 
+
 </tbody>
 </table>
 </div>
 <!-- /Shipping Table -->       </td>
   <td valign="top" id="billingTableCell">
-    
+
 
 <!-- Billing Table -->
 <div id="billingTable" style="visibility: hidden; display: none;">
@@ -1159,7 +1188,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   </td>
 </tr>
 
-   
+
 <tr class="ucBillingCompanySpacerRow">
   <td><img src="/checkout/images/spacer.gif" width="1" height="4" border="0" alt=''/></td>
 </tr>
@@ -1373,7 +1402,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
                         </span></td>
 </tr>
 
-   
+
 
 </tbody>
 </table>
@@ -1413,14 +1442,14 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   </tr>
   </table>
 
-  
+
   <br />
 
   <!-- Shipping and summary table -->
   <table id="ucSingleTable4" border="0" cellpadding="0" cellspacing="10">
     <tr>
       <td valign="top">
-                  
+
 
 
 
@@ -1436,7 +1465,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   <tr class="ucShippingMethodsRow">
     <td>
       <div id="shippingPreferences" class="ucFormLabel">
-         
+
         <table id="ucShippingMethodTable2" border="0" cellspacing="0" cellpadding="0">
           <tbody>
 
@@ -1549,7 +1578,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
               <a target="_blank" href="/cgi-bin/UCPackingSolution?merchantId=2454">Logged in merchant, view packing solution</a>
             </td>
           </tr>
-             
+
         </table>
 
       </div>
@@ -1560,7 +1589,7 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
 <!-- /shipping methods -->
                </td>
       <td valign="top">
-        
+
 
 <!-- summary -->
 <div id="ucSummaryTableId">
@@ -1612,23 +1641,23 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
   </table>
 
 
-   
 
-   
-   
+
+
+
   <br />
 
-  
+
 
   <table id="ucSingleTable5" cellspacing="0" cellpadding="0" border="0" width="250">
   <tbody>
   <tr>
     <td>
-               
 
 
 
- 
+
+
 <table cellspacing="0" cellpadding="0" border="0" width="250" id="ucCreditCardFormTableId"
        >
   <tbody>
@@ -1817,8 +1846,8 @@ if (x>0 && !we) document.write ("<table><tr><td><img width=93 height=26 src=\'/c
         </span>
       </td>
     </tr>
-     
-     
+
+
   </tbody>
 </table>
            </td>
@@ -1847,7 +1876,7 @@ function getElementsByClass(searchClass,node,tag){var classElements=new Array();
   <iframe name="shippingCalculator" id="shippingCalculator" height="0" width="0" frameborder="0"
           src="/checkout/images/spacer.gif">
   </iframe>
-   
+
 
   <span id="debugDiv"></span>
 
@@ -1867,41 +1896,41 @@ function getElementsByClass(searchClass,node,tag){var classElements=new Array();
 
 
 
-  
 
 
 
- 
+
+
 
 
 
 
   <script type="text/javascript" src="/ultracart_analytics_manager_1.0.js"></script>
 
-  
-
- 
-
-
-  
-
-
- 
-
-
-
-
-
-     
 
 
 
 
 
 
-   
 
-      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--- CAN MODIFY START ------------------------------------------------------->
 
 </td>
@@ -1925,14 +1954,14 @@ temp=navigator.appVersion.split("MSIE")
 version=parseFloat(temp[1])
 }
 
- 
+
   var d = document.getElementById('DANBCK');
 
                       var dontdisplaydaniela = document.getElementById('nodaniela');
-  
+
   if (dontdisplaydaniela!=null || getBrowserWidth()<910 || version<5.5) d.style.display='None';
   else d.style.display='block';
-  
+
   var oElement = d;
   var oPos=0;
   while( oElement.offsetParent ) {
@@ -1958,7 +1987,7 @@ function getBrowserWidth()
   {
     return document.body.clientWidth;
   }
-  
+
   return 0;
 };
 
