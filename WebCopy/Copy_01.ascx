@@ -74,9 +74,12 @@
 								<br><span style="color:Black;background-color:Yellow">&nbsp;<b>READ ON</b> and learn how science can help you <b>IMPROVE YOUR "LUCK"</b> with the ladies.&nbsp;</span><br><br>
 							</p>
 						</div>
-						<div align="center"><img src="/images/big-pheromone-cologne.jpg" width="297" height="336"/>&nbsp;</div>
-						<br><br>
-						<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+						<div align="center">
+						<h1 class="mobile-heading">Imagine YOU Could Make Women<br>&nbsp;&nbsp;Feel Instant Sexual Attraction!</h1>
+						<img src="/images/big-pheromone-cologne.jpg" width="297" height="336"/>
+						&nbsp;</div>
+						<br class="mobile-hidden"><br class="mobile-hidden">
+						<table class="mobile-hidden" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
 							<tr>
 								<td>
 									<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -109,14 +112,14 @@
 								</td>
 							</tr>
 						</table>
-						<br><br><br>
-						<div align=center><img src="/images/stop.gif" width="70" height="70"/></div>
-						<h2>DO NOT BUY Icebreaker Pheromone Cologne<br>
+						<br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden">
+						<div class="mobile-hidden" align=center><img src="/images/stop.gif" width="70" height="70"/></div>
+						<h2  class="mobile-hidden">DO NOT BUY Icebreaker Pheromone Cologne<br>
 							until You Try our Competitor's Products!</h2>
-						I challenge you to buy competitive products such as: Nexus, Pherlure or Athena. Go out and test them in the field: interact with girls, notice their responses. Then come back to our website and purchase Icebreaker. Only then you'll fully appreciate the big difference that
+						<span class="mobile-hidden">I challenge you to buy competitive products such as: Nexus, Pherlure or Athena. Go out and test them in the field: interact with girls, notice their responses. Then come back to our website and purchase Icebreaker. Only then you'll fully appreciate the big difference that
 						Icebreaker makes when you're talking to women.
 						<br><br>
-						Read below about the unique <b>SECOND GENERATION</b> pheromone compounds that make the <B>HUGE</B> difference.
+						Read below about the unique <b>SECOND GENERATION</b> pheromone compounds that make the <B>HUGE</B> difference.</span>
 					</td>
 				</div>
 				<tr>
@@ -125,7 +128,7 @@
 							<div style="padding-top:21px ">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
-										<td><br>
+										<td><br class="mobile-hidden">
 											<div class="main_heading">How do Pheromones Work in Humans?</div>
 										</td>
 									</tr>
@@ -189,7 +192,7 @@
 											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
 											<td class="relaxedtext">Perception of How Attractive You Are</td>
 										</tr>
-										<tr>
+										<tr class="mobile-hidden">
 											<td>&nbsp;</td>
 											<td height="52">&nbsp;</td>
 										</tr>
@@ -294,7 +297,7 @@
 							</tr>
 							<tr>
 								<td style="font-size: 11px; padding-bottom: 8px; color: #333333; padding-top: 8px">
-									<span>* Licensed to us.<br><br> If you are not a chemist, some of the chemical names above may sound unsafe to you. Rest assured that Icebreaker contains only small amounts not to cause any adverse reactions, but strong enough to release ample amounts of pheromone molecules into the air. The VNO in the nose is sensitive and can detect trace amounts of these molecules. <br><br><strong>RESULTS DISCLAIMER:</strong> There are limitations with the effects of pheromone based products like with any other product which interacts with the human body. While studies show pheromones have been effective in connection with the results and parallel the claims as contained on this website, we do not guarantee that such results will be achieved by every person that uses our product 100% of the time. Results may vary in different degrees depending upon a variety of factors. For those customers who do not experience positive results we offer 30 days FULL money back guarantee.</span>
+									<span><span class="mobile-hidden">* Licensed to us.<br><br> If you are not a chemist, some of the chemical names above may sound unsafe to you. Rest assured that Icebreaker contains only small amounts not to cause any adverse reactions, but strong enough to release ample amounts of pheromone molecules into the air. The VNO in the nose is sensitive and can detect trace amounts of these molecules.</span> <br class="mobile-hidden"><br class="mobile-hidden"><strong>RESULTS DISCLAIMER:</strong> There are limitations with the effects of pheromone based products like with any other product which interacts with the human body. While studies show pheromones have been effective in connection with the results and parallel the claims as contained on this website, we do not guarantee that such results will be achieved by every person that uses our product 100% of the time. Results may vary in different degrees depending upon a variety of factors. For those customers who do not experience positive results we offer 30 days FULL money back guarantee.</span>
 								</td>
 							</tr>
 						</table>
@@ -311,13 +314,14 @@
 							</tr>
 						</table>
 						<br>
-						When you start using Icebreaker Pheromone Cologne, you may experience the primary effects caused by the sex pheromones depending on how much interaction you have with women. Soon you'll see the actual positive changes in your life. You get a boost of confidence caused by all
-						the positive responses.
-						But at the end of the day, your personality and behavior will still dictate your overall success.
-						With great results, you could experience the following:
-						<br><br>
+						<div class="mobile-hidden">
+							When you start using Icebreaker Pheromone Cologne, you may experience the primary effects caused by the sex pheromones depending on how much interaction you have with women. Soon you'll see the actual positive changes in your life. You get a boost of confidence caused by all
+							the positive responses.
+							But at the end of the day, your personality and behavior will still dictate your overall success.
+							With great results, you could experience the following:<br><br>
+						</div>
 						<table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
-							<tr>
+							<tr class="mobile-hidden">
 								<td width="17">&nbsp;</td>
 								<td>&nbsp;</td>
 							</tr>
@@ -366,13 +370,14 @@
 								<td>&nbsp;</td>
 							</tr>
 						</table>
-						<p>
+						<p class="mobile-hidden">
 							<br>
 							When you get your Icebreaker, you'll be amazed by the increased attention you get from women. Don't procrastinate. Our limited supplies are flying off the shelves fast.
 							<a href="#" onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">Important product limitations.</a>
 							<br><br>
 							<uc1:BuyNowButton ID="BuyNowButton1" Caption="Click Here  to Order Icebreaker Pheromone Cologne  Now" runat="server"/>
 						</p>
+						<a href="#" class="add-to-cart">Add to Cart</a>
 					</td>
 				</tr>
 				<tr>
@@ -384,8 +389,8 @@
 				<tr>
 					<td valign="top">
 						<table class="information" width="100%" border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td width="200" height="246" align="center" valign="top"><img src="/images/Ebook.png" width="200" height="283"></td>
+							<tr class="mobile-hidden">
+								<td width="200" height="246" align="center" valign="top"><img class="info-img" src="/images/Ebook.png" width="200" height="283"></td>
 								<td width="20">&nbsp;</td>
 								<td>
 									<br>
@@ -429,13 +434,14 @@
 									</table>
 								</td>
 							</tr>
-							<tr>
-								<td colspan="3" align="center" valign="top"><br>
+							<tr class="information-block">
+								<td class="info-right" colspan="3" align="center" valign="top"><br>
+								<img class="info-img desktop-hidden" src="/images/Ebook.png" width="200" height="283">
 									<div align="left">
-										If you answered yes, you must absolutely read this course! You'll learn surprisingly EASY and sometimes counterintuitive techniques to create attraction. Wait till you read about the <strong>step-by-step fool proof technique to take a girl home!</strong> This
-										course works hand in hand with Icebreaker to wake up and unleash the confident and sexy man that sleeps inside you that women love!
-										<BR>
-										<BR>
+										<span class="mobile-hidden">If you answered yes, you must absolutely read this course! You'll learn surprisingly EASY and sometimes counterintuitive techniques to create attraction. Wait till you read about the <strong>step-by-step fool proof technique to take a girl home!</strong> This
+										course works hand in hand with Icebreaker to wake up and unleash the confident and sexy man that sleeps inside you that women love!</span>
+										<BR class="mobile-hidden">
+										<BR class="mobile-hidden">
 										Spray on Icebreaker and girls will show interest in you. But, I want to make absolutely sure that<strong> you don't screw up your opportunities</strong>. I want <strong>YOU</strong> to make the best of each and every interaction with a girl. That's why I
 										giving you this field proven dating &amp; seduction guide for FREE! <br>
 									</div>
@@ -450,8 +456,9 @@
 				</tr>
 				<tr>
 					<td valign="top">
+					<a href="#" class="add-to-cart">Add to Cart</a>
 						<a name="guarantee"></a>
-						<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<table class="table-guarantee" width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td width=40 height=41 style="background-image: url(/images/cert_01.jpg)">
 									&nbsp;</td>
@@ -463,11 +470,11 @@
 							<tr>
 								<td style="background-image: url(/images/cert_04.jpg)">
 								</td>
-								<td style="padding:0px 8px 16px 8px">
-									<div class="main_heading">100% Satisfaction Guarantee<br><span style="background-color:#FFFF00">&nbsp;Get Laid in 30 Days or Your Money Back! </span></div>
-									<br>
-									<br>
-									<table width="100%" cellpadding=0 cellspacing=0>
+								<td class="guarantee-box" style="padding:0px 8px 16px 8px">
+									<div class="main_heading">100% Satisfaction Guarantee<br><span class="mobile-hidden" style="background-color:#FFFF00">&nbsp;Get Laid in 30 Days or Your Money Back!</span></div>
+									<br class="mobile-hidden">
+									<br class="mobile-hidden">
+									<table class="mobile-hidden" width="100%" cellpadding=0 cellspacing=0>
 										<tr>
 											<td width="103"><img width="95" height="95" src="/images/satisfaction.gif"/></td>
 											<td>Our accountant thinks I am crazy! I personally don't know you, so, how can I offer you such strong statement of warranty? Simply because <strong>I KNOW</strong> if you try <strong>Icebreaker Pheromone Cologne</strong> and follow the &quot;<em><strong>Crash
@@ -475,9 +482,10 @@
 											</td>
 										</tr>
 									</table>
-									<br>
-									Many of our customers reported amazing success, and I know you will too. If you don't think so, simply send back your unused portion and we'll send you <strong>EVERY PENNY</strong>, including our shipping cost, back to you, promptly.<br>
-									<br>
+									<br class="mobile-hidden">
+									<span class="mobile-hidden">Many of our customers reported amazing success, and I know you will too. If you don't think so, simply send back your unused portion and we'll send you <strong>EVERY PENNY</strong>, including our shipping cost, back to you, promptly.</span><br>
+									<br class="mobile-hidden">
+									<img class="guarantee-img desktop-hidden" width="95" height="95" src="/images/satisfaction.gif"/>
 									<table class="guarantee-list" align="center" width="410" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="30" align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
@@ -524,15 +532,16 @@
 									&nbsp;</td>
 							</tr>
 						</table>
+						<a href="#" class="add-to-cart">Add to Cart</a>
 					</td>
 				</tr>
-				<tr>
+				<tr class="mobile-hidden">
 					<td align="center" valign="top"><br><br>
 						<uc1:BuyNowButton ID="BuyNowButton3" Caption="Start Having Success with Women in Less than One Week!" runat="server"/>
 						<br>
 					</td>
 				</tr>
-				<tr>
+				<tr class="mobile-hidden">
 					<td align="center" style="padding-top:20px"><span class="orange_handing">Check out what some of our customers have said</span>
 					</td>
 				</tr>
@@ -786,21 +795,21 @@
 						</table>
 					</td>
 				</tr>
-				<tr>
+				<tr class="mobile-hidden">
 					<td valign="top" align="center" style="padding-top:16px">
 						<a href="#" style='font-weight:bold' onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">Important product limitations.</a><br>
 						<br>
 						<uc1:BuyNowButton ID="BuyNowButton4" Caption="Attract Girls and Get Laid!" runat="server"/>
 					</td>
 				</tr>
-				<tr>
+				<tr class="mobile-hidden">
 					<td valign="top">
 						<div class="main_heading">Say Goodbye to "Let's just be Friends"!</div>
 						<a name="#INFO"/>
 						<uc3:OfferTable id="OfferTable1" runat="server"/>
 					</td>
 				</tr>
-				<tr>
+				<tr class="mobile-hidden">
 					<td valign="top">
 						<p style="background-color:Yellow">
 							<strong>So, Here's the Deal:</strong><br>
@@ -847,6 +856,7 @@
 				<tr>
 					<td align="center" valign="top">
 						<uc1:BuyNowButton ID="BuyNowButton5" runat="server" Caption="Experience the Thrill of Girls Hitting on YOU!"/>
+						<a href="#" class="add-to-cart">Add to Cart</a>
 						<table class="logos" width="300" align="center">
 							<tr>
 								<td><a href='#guarantee'><img border=0 src="/images/satisfaction-sm.gif" alt="30 Day Money Back Guarantee" width="82" height="84"></a></td>

@@ -109,42 +109,6 @@
 			</tr>
 		</table>
 
-		<!-- Offers -->
-		<div class="offers">
-			<div class="item">
-				<h2 class="heading">Try one bottle risk FREE</h2>
-				<img class="image" src="images/sale-1.jpg" width="270" height="310" alt="">
-				<div class="text">
-					<p class="info">Introductory Sale 40% Off Ends <span class="color">Wednesday the 15th</span>, Jun '16</p>
-					<p class="price"><span class="old">Regular $99.95</span></p>
-					<p class="price"><span class="new">On Sale $59.95</span></p>
-					<a class="button-order" href="/PlaceOrder.aspx?SKU=1003"><img border="0" onMouseOver="myOn(this,'/images/order_button_1_sel.gif')" onMouseOut="myOn(this,'/images/order_button_1.gif')" src="/images/order_button_1.gif" width="147" height="35" alt=""></a>
-				</div>
-			</div>
-			<div class="item">
-				<h2 class="heading">Buy 2 Bottles</h2>
-				<img class="image" src="images/bottle-2.jpg" width="180" height="240" alt="">
-				<div class="text">
-					<ul class="list">
-						<li>Three 30ml Bottles</li>
-						<li>6 Month Supply</li>
-						<li>Satisfaction Guarantee</li>
-					</ul>
-					<p class="price"><span class="old">Regular $199.95</span></p>
-					<p class="price"><span class="new">On Sale $119.95</span></p>
-				</div>
-			</div>
-			<div class="item">
-				<h2 class="heading">Get 1 FREE</h2>
-				<img class="image" src="images/bottle-1.jpg" width="180" height="240" alt="">
-				<div class="text">
-					<p class="big">Buy <strong>2</strong> <br>Get <strong>1</strong> <br><strong>FREE!</strong></p>
-					<a class="button-order" href="/PlaceOrder.aspx?SKU=1003"><img border="0" onMouseOver="myOn(this,'/images/order_button_1_sel.gif')" onMouseOut="myOn(this,'/images/order_button_1.gif')" src="/images/order_button_1.gif" width="147" height="35" alt=""></a>
-				</div>
-			</div>
-		</div>
-		<!-- /Offers -->
-
 	</td>
 </tr></table>
 <br /><br />
