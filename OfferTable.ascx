@@ -37,10 +37,8 @@
 					<img src="/images/spacer.gif" width="1" height="34" alt=""></td>
 			</tr>
 			<tr>
-				<td>
-					<a href="/PlaceOrder.aspx"><img border="0" onMouseOver="myOn(this,'/images/order_button_1_sel.gif')" onMouseOut="myOn(this,'/images/order_button_1.gif')" src="/images/order_button_1.gif" width="147" height="35" alt=""></a></td>
-				<td>
-					<img src="/images/spacer.gif" width="1" height="35" alt=""></td>
+				<td><a href="/PlaceOrder.aspx"><img border="0" onMouseOver="myOn(this,'/images/order_button_1_sel.gif')" onMouseOut="myOn(this,'/images/order_button_1.gif')" src="/images/order_button_1.gif" width="147" height="35" alt=""></a></td>
+				<td><img src="/images/spacer.gif" width="1" height="35" alt=""></td>
 			</tr>
 			<tr>
 				<td colspan="3">
@@ -87,10 +85,8 @@
 					<img src="/images/spacer.gif" width="1" height="35" alt=""></td>
 			</tr>
 			<tr>
-				<td width="564" height="30" colspan="5">
-					<img src="/images/spacer.gif" width="564" height="30" alt=""></td>
-				<td>
-					<img src="/images/spacer.gif" width="1" height="30" alt=""></td>
+				<td width="564" height="30" colspan="5"><img src="/images/spacer.gif" width="564" height="30" alt=""></td>
+				<td><img src="/images/spacer.gif" width="1" height="30" alt=""></td>
 			</tr>
 			<tr>
 				<td colspan="5">

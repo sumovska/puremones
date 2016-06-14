@@ -5,7 +5,7 @@
 <%@ Register Src="../BuyNowButton.ascx" TagName="BuyNowButton" TagPrefix="uc1" %>
 <link href="/styles.css" rel="stylesheet" type="text/css">
 <table width="740" bgcolor="WHITE" border="0" cellspacing="0" cellpadding="0">
-	<tr>
+	<tr class="mobile-hidden">
 		<td colspan=2>
 			<table width="100%" class="index" border="0" cellspacing="0" cellpadding="0">
 				<tr>
@@ -42,7 +42,7 @@
 			</table>
 		</td>
 	</tr>
-	<tr>
+	<tr class="mobile-hidden">
 		<td height="24" bgcolor="#222222">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
@@ -52,26 +52,28 @@
 			</table>
 		</td>
 	</tr>
-	<tr>
+	<tr class="mobile-hidden">
 		<td height="4" bgcolor="#94A1B2"></td>
 	</tr>
 	<tr>
 		<td style="padding:0px 50px 0px 50px">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
-				<tr>
+				<tr class="mobile-hidden">
 					<td height="14"></td>
 				</tr>
 				<tr>
 					<td>
-						<h2>Could Scent Cause Feelings of Attraction or Trust?</h2>
-						<p>
-							If you haven't heard all the <a href="/mediabuzz.aspx" target=_blank>media buzz about pheromones</a>, let me explain:<br>
-							Pheromones are natural chemicals that attract the opposite sex. This fact is well researched and documented in the animal kingdom. <a href="/pheromoneresearch.aspx" target="_blank">New research and studies</a> show that <b>pheromones play a far bigger role in HUMAN
-							SEXUALITY than ever thought before.</b>
-							<br><br>
-							I am Robert Reins founder of Ascent Research Group LLC - a company that brings you the latest in <b>pheromone technology</b>.&nbsp;<br>
-							<br><span style="color:Black;background-color:Yellow">&nbsp;<b>READ ON</b> and learn how science can help you <b>IMPROVE YOUR "LUCK"</b> with the ladies.&nbsp;</span><br><br>
-						</p>
+						<div class="mobile-hidden">
+							<h2>Could Scent Cause Feelings of Attraction or Trust?</h2>
+							<p>
+								If you haven't heard all the <a href="/mediabuzz.aspx" target=_blank>media buzz about pheromones</a>, let me explain:<br>
+								Pheromones are natural chemicals that attract the opposite sex. This fact is well researched and documented in the animal kingdom. <a href="/pheromoneresearch.aspx" target="_blank">New research and studies</a> show that <b>pheromones play a far bigger role in HUMAN
+								SEXUALITY than ever thought before.</b>
+								<br><br>
+								I am Robert Reins founder of Ascent Research Group LLC - a company that brings you the latest in <b>pheromone technology</b>.&nbsp;<br>
+								<br><span style="color:Black;background-color:Yellow">&nbsp;<b>READ ON</b> and learn how science can help you <b>IMPROVE YOUR "LUCK"</b> with the ladies.&nbsp;</span><br><br>
+							</p>
+						</div>
 						<div align="center"><img src="/images/big-pheromone-cologne.jpg" width="297" height="336"/>&nbsp;</div>
 						<br><br>
 						<table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -116,7 +118,7 @@
 						<br><br>
 						Read below about the unique <b>SECOND GENERATION</b> pheromone compounds that make the <B>HUGE</B> difference.
 					</td>
-				</tr>
+				</div>
 				<tr>
 					<td>
 						<div>
@@ -448,7 +450,7 @@
 				</tr>
 				<tr>
 					<td valign="top">
-						<a name="guarantee"/>
+						<a name="guarantee"></a>
 						<table width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td width=40 height=41 style="background-image: url(/images/cert_01.jpg)">
@@ -476,7 +478,7 @@
 									<br>
 									Many of our customers reported amazing success, and I know you will too. If you don't think so, simply send back your unused portion and we'll send you <strong>EVERY PENNY</strong>, including our shipping cost, back to you, promptly.<br>
 									<br>
-									<table align="center" width="410" border="0" cellspacing="0" cellpadding="0">
+									<table class="guarantee-list" align="center" width="410" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="30" align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
 											<td height="20" class="relaxedtext"> Unconditional 30 day money back guarantee.</td>
@@ -845,7 +847,7 @@
 				<tr>
 					<td align="center" valign="top">
 						<uc1:BuyNowButton ID="BuyNowButton5" runat="server" Caption="Experience the Thrill of Girls Hitting on YOU!"/>
-						<table class="logos" width="300" align=center>
+						<table class="logos" width="300" align="center">
 							<tr>
 								<td><a href='#guarantee'><img border=0 src="/images/satisfaction-sm.gif" alt="30 Day Money Back Guarantee" width="82" height="84"></a></td>
 								<td><a href="https://www.paypal.com/us/verified/pal=support%40icebreaker4men%2ecom" target="_blank"><img border=0 src="/images/paypalverified.gif" alt="PayPal verified Merchant" width="82" height="84"></a></td>
