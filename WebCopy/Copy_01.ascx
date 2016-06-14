@@ -435,9 +435,9 @@
 								</td>
 							</tr>
 							<tr class="information-block">
-								<td class="info-right" colspan="3" align="center" valign="top"><br>
+								<td colspan="3" align="center" valign="top"><br>
 								<img class="info-img desktop-hidden" src="/images/Ebook.png" width="200" height="283">
-									<div align="left">
+									<div class="info-right" align="left">
 										<span class="mobile-hidden">If you answered yes, you must absolutely read this course! You'll learn surprisingly EASY and sometimes counterintuitive techniques to create attraction. Wait till you read about the <strong>step-by-step fool proof technique to take a girl home!</strong> This
 										course works hand in hand with Icebreaker to wake up and unleash the confident and sexy man that sleeps inside you that women love!</span>
 										<BR class="mobile-hidden">
@@ -445,10 +445,10 @@
 										Spray on Icebreaker and girls will show interest in you. But, I want to make absolutely sure that<strong> you don't screw up your opportunities</strong>. I want <strong>YOU</strong> to make the best of each and every interaction with a girl. That's why I
 										giving you this field proven dating &amp; seduction guide for FREE! <br>
 									</div>
-									<br>
-									<br>
+									<br class="mobile-hidden">
+									<br class="mobile-hidden">
 									<uc1:BuyNowButton ID="BuyNowButton2" Caption="Get INSTANT Dates! Attract and Seduce Women!" runat="server"/>
-									<br>
+									<br class="mobile-hidden">
 								</td>
 							</tr>
 						</table>
