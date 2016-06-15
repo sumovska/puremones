@@ -404,18 +404,17 @@ h3 {
   font-weight: bold;
   color: #c09;
 }
-
 /*** ADD-TO-CART ***/
 .add-to-cart {
-  width: 120px;
-  height: 28px;
-  padding: 5px 6px 5px 56px;
+  width: 246px;
+  height: 54px;
+  padding: 0 15px 0 0;
   margin: 20px auto;
   display: none !important;
   color: #1c408b !important;
-  font: bold 14px/28px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  text-transform: uppercase;
-  text-align: left;
+  font: bold 32px/52px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  text-transform: none;
+  text-align: right;
   background: url('/images/add-to-cart-mobile.png') no-repeat 0 0;
 }
 .add-to-cart:hover {
@@ -431,7 +430,7 @@ h3 {
   text-align: center;
   color: red;
 }
-.desktop-hidden { display: none;}
+.desktop-hidden { display: none; }
 /* ==========================================================================
    _HTML5 FIXES
    ========================================================================== */
@@ -483,7 +482,7 @@ td[style*="padding-left:350px"] p { margin-right: 0; }
   .greyrightsidebg { display: none !important; }
   .guarantee-list { width: auto !important; }
   img[width="352"] { width: 100%; height: auto; }
-  #chatdiv { display: none;}
+  #chatdiv { display: none; }
 }
 @media (max-width: 750px) {
   td[style*="padding:0px 50px 0px 50px"] { padding: 0 10px !important; }
@@ -503,18 +502,18 @@ td[style*="padding-left:350px"] p { margin-right: 0; }
   .Table_01 { display: none; }
   .mobile-hidden { display: none; }
   .desktop-hidden { display: block; }
-  .add-to-cart { display: block !important;}
+  .add-to-cart { display: block !important; }
   .information-block .info-img { float: left; width: 140px; height: auto; margin-left: 0; }
   .information-block .info-right { margin-left: 150px; }
   .table-guarantee { margin: 40px 0; }
-  .guarantee-box { position: relative;} 
-  .guarantee-list { margin-left: 68px;}
-  .guarantee-img {position: absolute; width: 60px; height: auto; }
-  .mobile-heading { display: block;}
+  .guarantee-box { position: relative; }
+  .guarantee-list { margin-left: 5px; }
+  .guarantee-img { position: absolute; width: 60px; height: auto; }
+  .mobile-heading { display: block; }
 }
 @media (max-width: 568px) {
   h1[style*="font-size:29px"] { font-size: 18px !important; }
-  .mobile-heading {font-size: 18px;}
+  .mobile-heading { font-size: 18px; }
   td[width="200"] + + td > br { display: none; }
   .languages { width: auto !important; }
   td[style*="padding:0px 50px 0px 50px"] { padding: 0 6px !important; }

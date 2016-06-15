@@ -471,7 +471,7 @@
 								<td style="background-image: url(/images/cert_04.jpg)">
 								</td>
 								<td class="guarantee-box" style="padding:0px 8px 16px 8px">
-									<div class="main_heading">100% Satisfaction Guarantee<br><span class="mobile-hidden" style="background-color:#FFFF00">&nbsp;Get Laid in 30 Days or Your Money Back!</span></div>
+									<div class="main_heading"><span class="mobile-hidden">100% </span>Satisfaction Guarantee<br><span class="mobile-hidden" style="background-color:#FFFF00">&nbsp;Get Laid in 30 Days or Your Money Back!</span></div>
 									<br class="mobile-hidden">
 									<br class="mobile-hidden">
 									<table class="mobile-hidden" width="100%" cellpadding=0 cellspacing=0>
@@ -485,7 +485,6 @@
 									<br class="mobile-hidden">
 									<span class="mobile-hidden">Many of our customers reported amazing success, and I know you will too. If you don't think so, simply send back your unused portion and we'll send you <strong>EVERY PENNY</strong>, including our shipping cost, back to you, promptly.</span><br>
 									<br class="mobile-hidden">
-									<img class="guarantee-img desktop-hidden" width="95" height="95" src="/images/satisfaction.gif"/>
 									<table class="guarantee-list" align="center" width="410" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="30" align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
