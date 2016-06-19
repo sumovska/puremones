@@ -75,9 +75,29 @@
 							</p>
 						</div>
 						<div align="center">
-						<h1 class="mobile-heading">Imagine YOU Could Make Women<br>&nbsp;&nbsp;Feel Instant Sexual Attraction!</h1>
+						<h1 class="mobile-heading">Imagine YOU Could Make Women Feel Instant Sexual Attraction!</h1>
 						<img src="/images/big-pheromone-cologne.jpg" width="297" height="336"/>
 						&nbsp;</div>
+
+						<div>
+							<div style="padding-top:21px ">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td><br class="mobile-hidden">
+											<div class="main_heading">What is Icebreaker Pheromone Cologne?</div>
+										</td>
+									</tr>
+								</table>
+<p>
+Icebreaker is a cologne with <b>pheromones to help create sexual attraction</b>. Use Icebreaker to appear more attractive, playful and socially charming. Use it in social situations when you are meeting someone new, to break the ice, or to disarm a beautiful woman you already know, and create sexual attraction and fun physical interaction.<br><br>
+Pheromones may trigger reactions such as: relaxed mood, happier feelings and readiness and willingness to have sex.
+</p>
+						<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
+</div>
+						</div>
+
+
+
 						<br class="mobile-hidden"><br class="mobile-hidden">
 						<table class="mobile-hidden" width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
 							<tr>
@@ -119,9 +139,15 @@
 						<span class="mobile-hidden">I challenge you to buy competitive products such as: Nexus, Pherlure or Athena. Go out and test them in the field: interact with girls, notice their responses. Then come back to our website and purchase Icebreaker. Only then you'll fully appreciate the big difference that
 						Icebreaker makes when you're talking to women.
 						<br><br>
-						Read below about the unique <b>SECOND GENERATION</b> pheromone compounds that make the <B>HUGE</B> difference.</span>
+						Read below about our <b>THIRD GENERATION</b> pheromone formula that makes the <B>BIG</B> difference.</span>
 					</td>
-				</div>
+
+				
+				
+				
+				
+				
+
 				<tr>
 					<td>
 						<div>
@@ -129,89 +155,26 @@
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tr>
 										<td><br class="mobile-hidden">
-											<div class="main_heading">How do Pheromones Work in Humans?</div>
+											<div class="main_heading">What Does it Smell Like?</div>
 										</td>
 									</tr>
 								</table>
-								<br>
-								One of the most interesting facts is that Pheromones are not consciously detected by the opposite sex. Pheromone molecules are detected inside the VNO ("vomeronasal organ") that is located in a small cavity inside the nose. This information is transmitted to
-								Hypothalamus, an almond size gland that is linked to other parts of limbic brain. These are the areas that control emotions and sexual activity. A woman exposed to human pheromones feels an instinctive, powerful attraction and she doesn't know why. This is what's
-								called "chemistry".
-							</div>
-							<div align="center" style="padding-top:17px; color: #000000;"><strong>Even the tiniest amounts of pheromones can trigger these significant reactions:</strong></div>
+<p>
+Icebreaker's fragrance is on par with expensive luxury designer colognes. It has light top notes of birch leaf, juniper, and Sicilian lemon, middle notes of iris and lavender with a masculine base notes of amber, sandalwood, rum and cashmere wood. Our customers are getting many compliments.
+</p>
+</div>
 						</div>
 					</td>
 				</tr>
+
+
+
 				<tr>
 					<td>
-						<table width="100%" border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td width="257" height="246" align="right" valign="top" style="padding-top:16px ">
-									<div align="center"><img src="/images/img3.jpg" width="179" height="196"><br><span class="style28">VNO - Pheromone Receptor<br> Hypothalamus - Emotions &amp; Sexual Behavior</span></div>
-								</td>
-								<td width="22">&nbsp;</td>
-								<td width="336">
-									<table width="100%" border="0" cellspacing="0" cellpadding="0">
-										<tr>
-											<td width="17" height="30">&nbsp;</td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-											<td class="relaxedtext">Relaxed Mood</td>
-										</tr>
-										<tr>
-											<td></td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-											<td class="relaxedtext">Happier Feelings</td>
-										</tr>
-										<tr>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-											<td class="relaxedtext">Ovulation Cycle Change</td>
-										</tr>
-										<tr>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-											<td class="relaxedtext"><span style="background-color:#FFFF00">Readiness and Willingness to Have Sex</span></td>
-										</tr>
-										<tr>
-											<td>&nbsp;</td>
-											<td>&nbsp;</td>
-										</tr>
-										<tr>
-											<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-											<td class="relaxedtext">Perception of How Attractive You Are</td>
-										</tr>
-										<tr class="mobile-hidden">
-											<td>&nbsp;</td>
-											<td height="52">&nbsp;</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="main_heading">
-							High-Tech 2nd Generation Pheromone Formula
+						<div class="main_heading">3rd Generation Pheromone Formula
 						</div>
-						<br>
-						<p>While other 1st generation pheromone products contain only basic Androstenes,<br>
-							<strong><span style="background-color:#FFFF00">Icebreaker formula contains 8 human pheromones including OXITOCIN Analog</span></strong> with linear time-release into the air. Oxytocin is the "Love" hormone released when women climax during sex. Now you can take full
-							advantage of latest advancements
-							in pheromone technology and improve your sex life.<br>
+						<p>While other 1st and 2nd generation pheromone products contain only basic Androstenes,<br>
+							<strong><span style="background-color:#FFFF00">Icebreaker formula contains 8 novel pheromones including OXITOCIN Analog</span></strong> with linear time-release into the air. Oxytocin is the "Love" hormone released when women climax during sex. Its purpose is to create feelings of trust and bonding and opens up the female.<br>
 							<br>
 							<br>
 						</p>
@@ -222,7 +185,7 @@
 						<table cellpadding="3" cellspacing="0" class="ContentTable" width="100%">
 							<tr>
 								<td rowspan="10" style="font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif">&nbsp;</td>
-								<td style="font-weight: bold; font-size: 20px; padding-bottom: 4px; border-bottom: black 8px solid; font-family: Arial, Helvetica, sans-serif">
+								<td style="font-weight: bold; font-size: 22px; padding-bottom: 4px; border-bottom: black 8px solid; font-family: Arial, Helvetica, sans-serif">
 									Icebreaker Pheromone Cologne Formula<br>
 									<span style="font-size: 12px">Blend of 8 Social and Sex Pheromones</span></td>
 								<td rowspan="10" style="font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif">
@@ -230,74 +193,73 @@
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<strong class="style35">Androstenone</strong> � Enhances the perception of male
-									dominance. <strong>Causes sexual arousal in women</strong>. May cause aggression
-									in some males, however this characteristic is "buffered".
+									<strong class="style35">Androstenone</strong> <strong>-</strong> Enhances the perception of male
+									dominance. <strong>Promotes sexual arousal in women</strong>. May cause aggression
+									in some males, however this characteristic is buffered.
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<strong class="style35">Androstanone</strong> � �Buffers� the potentially objectionable
+									<strong class="style35">Androstanone</strong> <strong>-</strong> Buffers the potentially objectionable
 									reaction to androstenes, powerfully reinforces the social effects. <strong>May cause women
 									to engage in sexually promiscuous conversation</strong>.
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<strong class="style35">Androsterone</strong> � Reinforces characteristics of androstenone.
-									<strong>Promotes the sense of �trust�</strong> with potential mates. Lacks the aggressive
-									dominance profile seen with androstenone.
+									<strong class="style35">Androsterone</strong> <strong>-</strong> Reinforces characteristics of androstenone.
+									<strong>Promotes the sense of trust</strong> with potential mates.<span class="mobile-hidden"> Lacks the aggressive
+									dominance profile seen with androstenone.</span>
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<strong class="style35">Androstenol (&#945; &amp; &#946;)</strong> � Social pheromone
+									<strong class="style35">Androstenol</strong> <strong>-</strong> Social pheromone
 									which elicits a <strong>strong social-lubricant effect</strong>, and <strong>may help reduce
-									inhibitions</strong>. When combined with certain pheromones, opens the door
-									to sexual arousal.
+									inhibitions</strong>.<span class="mobile-hidden"> When combined with certain pheromones, opens the door
+									to sexual arousal.</span>
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<span class="style35"><strong>Dehydroisoandrosterone</strong></span><strong> *</strong>
-									� Androgynous pheromone that has mild pheromonal effects alone. When combined with
-									certain pheromones, uniquely reinforces the effect and character of each. Also is
+									<span class="style35"><strong>Dehydroisoandrosterone</strong> <strong>-</strong></span>
+									Androgynous pheromone that has mild pheromonal effects alone.<span class="mobile-hidden"> When combined with
+									certain pheromones, uniquely reinforces the effect and character of each.</span> Also is
 									a fixative that moderates odor and <strong>promotes the linear time release of pheromones
 									into the air</strong>.
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<span class="style35"><strong>Epoxyestratrienol</strong></span><strong> *</strong>
-									� Novel and proprietary pheromone. Structure is based upon a modified 16,17-epoxy-estratrien
+									<span class="style35"><strong>Epoxyestratrienol</strong> <strong>-</strong></span>
+									Novel and proprietary pheromone. Structure is based upon a modified 16,17-epoxy-estratrien
 									compound which has been investigated for use to <strong>alleviate a woman's irritability
 									during ovulation</strong>. Demonstrates strong pheromonal effects.
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 1px solid">
-									<span class="style35"><strong>Tetrahydrodeoxycorticosterone</strong></span><strong>
-									*</strong> � Novel and proprietary pheromone. Modified corticosteroid which
-									lacks systemic corticosteroidal or endocrinological effects. Demonstrates extremely
-									powerful �pheromone-like� activity. Continues to <strong>exert pheromone like effects
-									for up to several hours after exposure</strong>, whereas androstenes lose effect
-									within minutes.
+									<span class="style35"><strong>Tetrahydrodeoxycorticosterone</strong> <strong>-</strong></span>
+									Novel and proprietary pheromone. <span class="mobile-hidden"> Modified corticosteroid which
+									lacks systemic corticosteroidal or endocrinological effects. </span>Demonstrates powerful pheromone-like activity. Continues to <strong>exert pheromone effects
+									for up to several hours after exposure</strong><span class="mobile-hidden">, whereas androstenes lose effect
+									within minutes</span>.
 								</td>
 							</tr>
 							<tr>
 								<td style="padding-bottom: 8px; padding-top: 8px; border-bottom: black 8px solid">
-									<span class="style35"><strong>Oxytocin Analog</strong></span><strong> *</strong>
-									� Is a modified peptide based upon Oxytocin. <strong>Help create strong feelings of trust
-									and deep connection.</strong> Demonstrates approximately 60,000% greater affinity
+									<span class="style35"><strong>Oxytocin Analog</strong></span><strong></strong> <strong>-</strong>
+									<span class="mobile-hidden">Is a modified peptide based upon Oxytocin.</span> <strong>Help create strong feelings of trust
+									and deep connection.</strong> <span class="mobile-hidden">Demonstrates approximately 60,000% greater affinity
 									vs. Oxytocin. Both compounds have large heavy molecules weights exceeding 1000 grams/mole.
 									Therefore, the minute quantities of airborne Oxytocin cause negligible results.
 									Using a far more powerful analog of Oxytocin ensures that the minute airborne quantities
-									elicit substantial pheromonal results.
+									elicit substantial pheromonal results.</span>
 								</td>
 							</tr>
 							<tr>
 								<td style="font-size: 11px; padding-bottom: 8px; color: #333333; padding-top: 8px">
-									<span><span class="mobile-hidden">* Licensed to us.<br><br> If you are not a chemist, some of the chemical names above may sound unsafe to you. Rest assured that Icebreaker contains only small amounts not to cause any adverse reactions, but strong enough to release ample amounts of pheromone molecules into the air. The VNO in the nose is sensitive and can detect trace amounts of these molecules.</span> <br class="mobile-hidden"><br class="mobile-hidden"><strong>RESULTS DISCLAIMER:</strong> There are limitations with the effects of pheromone based products like with any other product which interacts with the human body. While studies show pheromones have been effective in connection with the results and parallel the claims as contained on this website, we do not guarantee that such results will be achieved by every person that uses our product 100% of the time. Results may vary in different degrees depending upon a variety of factors. For those customers who do not experience positive results we offer 30 days FULL money back guarantee.</span>
+									<span><span class="mobile-hidden">If you are not a chemist, some of the chemical names above may sound unsafe to you. Rest assured that Icebreaker contains only small amounts not to cause any adverse reactions, but strong enough to release ample amounts of pheromone molecules into the air. The VNO in the nose is sensitive and can detect trace amounts of these molecules.</span> <br class="mobile-hidden"><br class="mobile-hidden"><strong>RESULTS DISCLAIMER:</strong> There are limitations with the effects of pheromone based products like with any other product which interacts with the human body. While studies show pheromones have been effective in connection with the results and parallel the claims as contained on this website, we do not guarantee that such results will be achieved by every person that uses our product 100% of the time. Results may vary in different degrees depending upon a variety of factors. For those customers who do not experience positive results we offer 30 days FULL money back guarantee.</span>
 								</td>
 							</tr>
 						</table>
@@ -320,7 +282,7 @@
 							But at the end of the day, your personality and behavior will still dictate your overall success.
 							With great results, you could experience the following:<br><br>
 						</div>
-						<table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+						<table width="90%" class='LT' border="0" align="center" cellpadding="0" cellspacing="0">
 							<tr class="mobile-hidden">
 								<td width="17">&nbsp;</td>
 								<td>&nbsp;</td>
@@ -331,19 +293,15 @@
 							</tr>
 							<tr>
 								<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-								<td class="red_small_heading">More smiles, winks, touches, hugs and kisses</td>
+								<td class="red_small_heading">More smiles, winks, touches, and kisses</td>
 							</tr>
 							<tr>
 								<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-								<td class="red_small_heading"><strong>More conversations initiated by girls that approach you</strong></td>
+								<td class="red_small_heading"><strong>More conversations initiated by girls</strong></td>
 							</tr>
 							<tr>
 								<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-								<td class="red_small_heading">An increased number of date invitations from girls</td>
-							</tr>
-							<tr>
-								<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
-								<td class="red_small_heading"> Broadened perception of your status and authority</td>
+								<td class="red_small_heading"> Broadened perception of your status</td>
 							</tr>
 							<tr>
 								<td align="left" valign="middle"><img src="/images/pointsymbol2.jpg" width="5" height="4"></td>
@@ -377,25 +335,25 @@
 							<br><br>
 							<uc1:BuyNowButton ID="BuyNowButton1" Caption="Click Here  to Order Icebreaker Pheromone Cologne  Now" runat="server"/>
 						</p>
-						<a href="#" class="add-to-cart">Add to Cart</a>
+						<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
 					</td>
 				</tr>
 				<tr>
 					<td valign="top" style="height: 16px">&nbsp;</td>
 				</tr>
 				<tr>
-					<td valign="top" class="main_heading"><span class="style29" style="background-color:#FFFF00"><span class="style30" style="background-color:#FFFF00">&nbsp;Order Today and Get <span style="border-bottom:solid 2px black">Seduction Course</span></span> Absolutely FREE!&nbsp;</span><BR><BR></td>
+					<td valign="top" class="main_heading"><span class="style29" style="background-color:#FFFF00"><span class="style30" style="background-color:#FFFF00">&nbsp;Order Today and Get Seduction Course</span> Absolutely FREE!&nbsp;</span><BR><BR></td>
 				</tr>
 				<tr>
 					<td valign="top">
 						<table class="information" width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr class="mobile-hidden">
-								<td width="200" height="246" align="center" valign="top"><img class="info-img" src="/images/Ebook.png" width="200" height="283"></td>
+								<td width="200" height="246" align="center" valign="top">
+								<img class="info-img" src="/images/Ebook.png" width="200" height="283"></td>
 								<td width="20">&nbsp;</td>
 								<td>
 									<br>
 									<strong>You may not know what to do when a girl shows interest.</strong> This guide has all the right answers for you!
-									<br>
 									<br>
 									<img src="/images/sp.gif" width="10" height="7"><br>
 									<table border="0" cellspacing="0" cellpadding="0" align=center>
@@ -436,7 +394,7 @@
 							</tr>
 							<tr class="information-block">
 								<td colspan="3" align="center" valign="top"><br>
-								<img class="info-img desktop-hidden" src="/images/Ebook.png" width="200" height="283">
+								<img class="info-img desktop-hidden" src="/images/Ebook.png" width="200" height="283" style="padding-top:6px">
 									<div class="info-right" align="left">
 										<span class="mobile-hidden">If you answered yes, you must absolutely read this course! You'll learn surprisingly EASY and sometimes counterintuitive techniques to create attraction. Wait till you read about the <strong>step-by-step fool proof technique to take a girl home!</strong> This
 										course works hand in hand with Icebreaker to wake up and unleash the confident and sexy man that sleeps inside you that women love!</span>
@@ -456,7 +414,7 @@
 				</tr>
 				<tr>
 					<td valign="top">
-					<a href="#" class="add-to-cart">Add to Cart</a>
+					<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
 						<a name="guarantee"></a>
 						<table class="table-guarantee" width="100%" border="0" cellspacing="0" cellpadding="0">
 							<tr>
@@ -474,9 +432,10 @@
 									<div class="main_heading"><span class="mobile-hidden">100% </span>Satisfaction Guarantee<br><span class="mobile-hidden" style="background-color:#FFFF00">&nbsp;Get Laid in 30 Days or Your Money Back!</span></div>
 									<br class="mobile-hidden">
 									<br class="mobile-hidden">
+									
 									<table class="mobile-hidden" width="100%" cellpadding=0 cellspacing=0>
 										<tr>
-											<td width="103"><img width="95" height="95" src="/images/satisfaction.gif"/></td>
+											<td width="103"><img width="95" height="95" src="/images/satisfaction.GIF"/></td>
 											<td>Our accountant thinks I am crazy! I personally don't know you, so, how can I offer you such strong statement of warranty? Simply because <strong>I KNOW</strong> if you try <strong>Icebreaker Pheromone Cologne</strong> and follow the &quot;<em><strong>Crash
 												Course in Dating &amp; Seduction</strong></em>&quot; guide, you're going to start having success with women in less than 30 days.
 											</td>
@@ -485,35 +444,35 @@
 									<br class="mobile-hidden">
 									<span class="mobile-hidden">Many of our customers reported amazing success, and I know you will too. If you don't think so, simply send back your unused portion and we'll send you <strong>EVERY PENNY</strong>, including our shipping cost, back to you, promptly.</span><br>
 									<br class="mobile-hidden">
-									<table class="guarantee-list" align="center" width="410" border="0" cellspacing="0" cellpadding="0">
+									<table class="guarantee-list" align="center" width="255" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td width="30" align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
-											<td height="20" class="relaxedtext"> Unconditional 30 day money back guarantee.</td>
+											<td height="20" class="relaxedtext"> 30 day money back guarantee.</td>
 										</tr>
 										<tr>
 											<td align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
-											<td height="20" class="relaxedtext">No waiting. Your order ships the next business day.</td>
+											<td height="20" class="relaxedtext">Order ships the same or next day.</td>
 										</tr>
 										<tr>
 											<td align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
-											<td height="20" class="relaxedtext">We never re-bill unless you re-reorder.</td>
+											<td height="20" class="relaxedtext">We never re-bill automatically.</td>
 										</tr>
 										<tr>
 											<td width="30" align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
 											<td height="20" class="relaxedtext">
-												Your order is packaged discreetly in a PLAIN BOX.
+												Packaged discreetly in a plain box.
 											</td>
 										</tr>
 										<tr>
 											<td align="left" valign="middle"><img src="/images/index_clip_image001.gif" width="20" height="18"></td>
-											<td height="20" class="relaxedtext">We never sell your personal information to anyone.</td>
+											<td height="20" class="relaxedtext">We never sell your information.</td>
 										</tr>
 									</table>
 									<br>
 									<table align=center>
 										<tr>
 											<td>
-												Sincerely,<br>
+												<span class="mobile-hidden">Sincerely,<br></span>
 												<img src="/images/signature.gif" width="131" height="23"><br>
 												Ascent Research Group LLC<br>
 											</td>
@@ -531,7 +490,8 @@
 									&nbsp;</td>
 							</tr>
 						</table>
-						<a href="#" class="add-to-cart">Add to Cart</a>
+						<center><img class='desktop-hidden' src="/images/big-pheromone-cologne.jpg" width="297" height="336"/></center><br>
+						<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
 					</td>
 				</tr>
 				<tr class="mobile-hidden">
@@ -630,8 +590,7 @@
 													<tr>
 														<td class="igotleftsidebg">&nbsp;</td>
 														<td align="left" valign="top" bgcolor="#DEEBF3">"Last year on my 24 birthday,I was still was a virgin. My friend told me about Icebreaker and gave me the crash course booklet. It was an eye opener! I was so ignorant to these things. I followed
-															the advise to build up my confidence. There was this girl working at starbucks who was constantly teasing me and making fun of my orders. I asked her out. A couple days later� let's just say that she showed me all the wonders of the world
-															in one night... ;-) I am very happy man!!! I am not telling you my name, I want to stay private, thanks!"
+															the advise to build up my confidence. There was this girl working at starbucks who was constantly teasing me and making fun of my orders. I asked her out. A couple days later let's just say that she showed me good times... ;-) I am very happy man!!! I am not telling you my name, I want to stay private, thanks!"
 														</td>
 														<td class="igotrightsidebg">&nbsp;</td>
 													</tr>
@@ -666,7 +625,7 @@
 													<tr>
 														<td class="igotleftsidebg">&nbsp;</td>
 														<td align="left" valign="top" bgcolor="#DEEBF3">"I've been using Icebreaker for about a month. I have to say, I've tried lots of other products and found some success. But, from my experience, I found out that Icebreaker has the best impact on
-															women's sex drive that I have seen so far. I always use it when I wanna make out with my girlfriend and she's not in the mood. I got 3 more bottles.�
+															women's sex drive that I have seen so far. I always use it when I wanna make out with my girlfriend and she's not in the mood. I got 3 more bottles.
 														</td>
 														<td class="igotrightsidebg">&nbsp;</td>
 													</tr>
@@ -733,8 +692,8 @@
 													</tr>
 													<tr>
 														<td class="igotleftsidebg">&nbsp;</td>
-														<td align="left" valign="top" bgcolor="#DEEBF3">�I went to a bachelor party wearing Icebreaker. I just had to write to tell you that all of our "entertainment" kept me quite busy. LOL! I could tell that the future groom got a little irritated
-															with me. I couldn't believe that Icebreaker had such a strong influence on these girls!�
+														<td align="left" valign="top" bgcolor="#DEEBF3">I went to a bachelor party wearing Icebreaker. I just had to write to tell you that all of our "entertainment" kept me quite busy. LOL! I could tell that the future groom got a little irritated
+															with me. I couldn't believe that Icebreaker had such a strong influence on these girls!
 														</td>
 														<td class="igotrightsidebg">&nbsp;</td>
 													</tr>
@@ -769,7 +728,7 @@
 													<tr>
 														<td class="igotleftsidebg">&nbsp;</td>
 														<td align="left" valign="top" bgcolor="#DEEBF3">"My name is Paul, and I'm kind of shy with girls. At times I really embarrassments myself. I have a friend that I work with, he's a player. He was having this party at his house and I went to his
-															bathroom. I saw this interesting cologne �Icebreaker�. I liked the smell, so I sprayed a little on. I was shocked with what happened next: one girl at the party who I talked to all of a sudden sat down on my lap and started french kissing
+															bathroom. I saw this interesting cologne Icebreaker. I liked the smell, so I sprayed a little on. I was shocked with what happened next: one girl at the party who I talked to all of a sudden sat down on my lap and started french kissing
 															me. I didn't know that this was the effect of the cologne until I thought about the whole thing the next day. So I googled it and was able to find your website. You guys rock! ;-)
 														</td>
 														<td class="igotrightsidebg">&nbsp;</td>
@@ -794,11 +753,21 @@
 						</table>
 					</td>
 				</tr>
+
+				<tr>
+					<td valign="top">
+					<br>
+						<center><img class='desktop-hidden' src="/images/big-pheromone-cologne.jpg" width="297" height="336"/></center><br>
+						<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
+						
+						
+						
+					</td>
+				</tr>
 				<tr class="mobile-hidden">
 					<td valign="top" align="center" style="padding-top:16px">
 						<a href="#" style='font-weight:bold' onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">Important product limitations.</a><br>
 						<br>
-						<uc1:BuyNowButton ID="BuyNowButton4" Caption="Attract Girls and Get Laid!" runat="server"/>
 					</td>
 				</tr>
 				<tr class="mobile-hidden">
@@ -855,7 +824,7 @@
 				<tr>
 					<td align="center" valign="top">
 						<uc1:BuyNowButton ID="BuyNowButton5" runat="server" Caption="Experience the Thrill of Girls Hitting on YOU!"/>
-						<a href="#" class="add-to-cart">Add to Cart</a>
+						<a href="/PlaceOrder.aspx" class="add-to-cart">Add to Cart</a>
 						<table class="logos" width="300" align="center">
 							<tr>
 								<td><a href='#guarantee'><img border=0 src="/images/satisfaction-sm.gif" alt="30 Day Money Back Guarantee" width="82" height="84"></a></td>

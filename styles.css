@@ -1,15 +1,13 @@
 /* CSS Document */
 
-/*** Roboto font ***/
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 body, td, th {
   color: #333;
   margin: 0;
   margin-bottom: .0001pt;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
-  font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 .style2 {
   color: #900;
@@ -52,7 +50,7 @@ a:visited {
 }
 a:hover {
   font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
-  color: #f00;
+  color: #b10755;
   text-decoration: underline;
 }
 a:active {
@@ -146,7 +144,7 @@ a.orderlink:visited {
 }
 a.orderlink:hover {
   font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
-  color: #f00;
+  color: #b10755;
 }
 a.sitelink:link {
   font-family: 'Roboto', Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -184,7 +182,7 @@ a.sitelink:active {
   background-color: #990100;
 }
 .main_heading, h2 {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+  line-height:22px;
   font-size: 18px;
   font-weight: bold;
   color: #000080;
@@ -192,80 +190,79 @@ a.sitelink:active {
   padding-top: 30px;
 }
 .sub_heading {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 15px;
   font-weight: bold;
   color: #000080;
 }
 .small_text {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 12px;
   font-style: italic;
   color: #000080;
   background-color: #deebf3;
 }
 .order-box {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 12px;
   font-weight: bold;
   color: #000080;
   background-color: #deebf3;
 }
 .black_heading {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 18px;
   font-weight: bold;
   color: #000;
 }
 .bob_heading {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 16px;
   font-weight: bold;
   color: #000;
 }
 .black_text {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 14px;
   font-weight: bold;
   color: #000;
 }
 .simple_black {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 14px;
   color: #000;
 }
 .orange_handing {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 18px;
   font-weight: bold;
   color: #f60;
 }
 .maroon_text {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 14px;
   font-weight: bold;
   color: #936;
 }
 .red_heading {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 17px;
   font-weight: bold;
-  color: #f00;
+  color: #b10755;
 }
 .red_small_heading {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
-  font-size: 14px;
+
   font-weight: bold;
-  color: #f00;
+  color: #b10755;
   padding: 2px;
 }
 .simple_red {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 14px;
-  color: #f00;
+  color: #b10755;
 }
 .small_orange_handing {
-  font-family: 'Trebuchet MS', Verdana, Geneva, sans-serif;
+
   font-size: 14px;
   font-weight: bold;
   color: #f60;
@@ -366,7 +363,7 @@ li {
   font-size: 9px;
 }
 .style29 {
-  color: #f00;
+  color: #b10755;
 }
 .style30 {
   color: #000;
@@ -410,7 +407,7 @@ h3 {
   color: #c09;
 }
 /*** ADD-TO-CART ***/
-.add-to-cart {
+.add-to-cart,.add-to-cart2  {
   width: 246px;
   height: 54px;
   padding: 0 15px 0 0;
@@ -422,8 +419,8 @@ h3 {
   text-align: right;
   background: url('/images/add-to-cart-mobile.png') no-repeat 0 0;
 }
-.add-to-cart:hover {
-  color: #1c408b;
+.add-to-cart:hover,.add-to-cart2:hover {
+  color:#1c408b;
   text-decoration: none;
 }
 /*** MOBILE-HEADING ***/
@@ -433,7 +430,7 @@ h3 {
   display: none;
   font-size: 22px;
   text-align: center;
-  color: red;
+  color: #b10755;
 }
 .desktop-hidden { display: none; }
 /* ==========================================================================
@@ -518,7 +515,7 @@ td[style*="padding-left:350px"] p { margin-right: 0; }
 }
 @media (max-width: 568px) {
   h1[style*="font-size:29px"] { font-size: 18px !important; }
-  .mobile-heading { font-size: 18px; }
+  .mobile-heading {}
   td[width="200"] + + td > br { display: none; }
   .languages { width: auto !important; }
   td[style*="padding:0px 50px 0px 50px"] { padding: 0 6px !important; }
@@ -533,4 +530,7 @@ td[style*="padding-left:350px"] p { margin-right: 0; }
   .information tr:first-of-type td[width="200"] img { margin-top: 20px; }
   img[width="179"] { width: auto; max-width: 100px; height: auto; }
   .ContentTable td[rowspan="10"] { display: none; }
+}
+.LT img {
+    padding: 0px 4px 4px 0;
 }
