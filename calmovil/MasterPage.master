@@ -1,0 +1,345 @@
+<%@ Master Language="C#" %>
+<%@ Register src="Tacker.ascx" tagname="Tacker" tagprefix="uc1" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+<title>Hemorrhoid Treatment | Hemorrhoids Cure | Piles Treatments</title>
+<meta name="description" content="<%=TitlePlus(" - ","Calmovil is a natural hemorrhoid remedy that treats painful, itchy or bleeding hemorrhoids quickly and effectively. It''s scientifically formulated based on several clinical studies.") %>">
+<meta name="keywords" content="<%=TitlePlus(", ","hemorrhoids, hemorrhoid treatment, hemorrhoids cure, piles treatments, hemorrhoids relief, bleeding hemorrhoids, thrombosed hemorrhoids, external hemorrhoids, internal hemorrhoids") %>">
+<link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+<body leftmargin="0" topmargin="0" bottommargin="0">
+
+<script>
+_udn="none";
+</script>
+
+<style type="text/css">
+.SEALS{display:none}
+</style>
+
+
+<style type="text/css">
+<!--
+.OrderButtonBig{background: url(/images/OrderButton_A.gif)}
+.OrderButtonSmall{background: url(/images/OrderButtonSmall_A.gif)}
+-->
+</style>
+
+<style type="text/css"> 
+<!-- 
+.OrderLogosBig{background: url(/images/OrderLogos_C.gif)} 
+.OrderLogosSmall{background: url(/images/OrderLogosSmall_C.gif)} 
+--> 
+</style> 
+
+<style type="text/css">
+.bg_doctor{background-image: url(/images/Doc_A.jpg)}
+.bg_header{background-image: url(/images/HemorrhoidsTreatment_V2.jpg)}
+.bg_menu{background-image: url(/images/HemorrhoidsCure_V2.gif)}
+.TOPLNK A{color:#075E80}
+.TOPLNK A:active{color:#E74C00}
+.TOPLNK A:hover{color:#E74C00}
+.rightsh {}
+.rightshade {}
+.leftsh {background-image:url(/images/leftsh22.gif)}
+.leftshade {background:gray;url(/images/leftshade22.jpg) fixed top right}
+.darkback{background-color:#002F40;color:White}
+H1{color:#10C028}
+</style>
+
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr><td class="leftshade" valign="top" width="1"></td><td>
+
+
+
+
+
+
+
+
+<table id="Table_01" width="802" height="230" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td class="bg_header" width="802" height="192">&nbsp;</td>
+	</tr>
+<tr>
+<td width="802" height="38" class="bg_menu">
+<table border=0 class='TOPLNK'><tr><td><a href="/">Home</a></td><td><a href="/FAQ.aspx">FAQ</a></td><td><a href="/AboutUs.aspx">About Us</a></td><td><a href="/#INGREDIENTS">Ingredients</a></td><td><a href="/PlaceOrder.aspx">Order Now</a></td></tr></table>
+</td>
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table align=center style="background-color:#FFFFFF" id="Table_02" width="802" height="220" border="0" cellpadding="0" cellspacing="0">
+<tr><td class="darkback" width="179" style="font-size:11px;color:white" align="center" valign="top">
+
+<br>
+<br>
+
+<div id='chatdiv'></div><div id='chatdivproactive'></div>
+<script type="text/javascript">
+function loadscript() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'http://smartlifehelp.info/visitor/index.php?_m=livesupport&_a=htmlcode&departmentid=0';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+}
+if(window.addEventListener){window.addEventListener('load',loadscript,false);}
+else if (window.addEventListener){window.attachEvent('onload',loadscript);}
+else window.onload=loadscript;
+</script>
+<span style='color:gray'><%=DateTime.Now.ToString("d MMM yyyy")%></span>
+
+<br>
+<br><br>
+<img src="/images/drops_onblue.jpg" class="calmovilblue" alt="Calmovil - Natural Hemorrhoid Relief. Hemorrhoids Treatment | Calmovil Natural Hemorrhoid Remedy" width="142" height="391">
+<br>
+<div align="left" style="padding-left:18px;color:white;font-size:11px">
+All-Natural Product<br>
+Money Back Guarantee<br>
+Bonus: FREE eBook<br>
+
+</div>
+</div>
+
+
+
+
+<br>
+<br>
+<div class='SEALS'>
+
+<div align="center" style='height:45px'><a name="trustlink" ref='nofollow' href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="trust check" src="https://secure.trust-guard.com/seals/435/business/header/" border="0"/></a>
+</div>
+<div align="center" style='height:45px'><a name="trustlink" ref='nofollow' href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="site certified" src="https://secure.trust-guard.com/seals/435/certified/header/" border="0"/></a>
+</div>
+<div align="center" style='height:45px'><a name="trustlink" ref='nofollow' href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="privacy certified" src="https://secure.trust-guard.com/seals/435/privacy/header/" border="0"/></a>
+</div>
+<div align="center" style='height:45px'><a name="trustlink" ref='nofollow' href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="security seal" src="https://secure.trust-guard.com/seals/435/security/header/" border="0"/></a>
+</div>
+<br>
+
+<script>
+document.write('<a href="https://www.paypal.com/us/verified/pal=support');
+document.write('@');
+document.write('smartli'+'felabs'+'.com" target=_blank>');
+</script>
+<a href="https://www.paypal.com/us/verified/pal=support@smartlifelabs.com" target="_blank"><img border=0 alt="NPA" src="/images/PayPal.gif" style="width:83px; height:84px" />
+<script>
+document.write('</a>');
+</script>
+<br><br>
+<img alt="NPA" src="/images/NPA.gif" style="width: 152px; height: 86px" /><br>
+<br>
+<a href="http://verify.authorize.net/anetseal/?pid=9f0ee523-078f-4cbc-8413-1b42d298c4b0" target=_blank><img border=0 src="/images/authorizenet.gif" width=87 height=69></a><br>
+
+
+<!--img src="/images/made-in-usa.gif" width="92" height="52" alt="Goutezol is made in America in FDA certified lab."-->
+
+</div>
+
+
+
+
+
+
+
+
+</td>
+<td width="621" align=center valign=top>
+<div align="left" style="width:580px"> 
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+</div>
+</td>
+<td width="2" class="darkback"> </td>
+</tr>
+
+<tr>
+<td class="darkback">
+    <uc1:Tacker ID="Tacker1" runat="server" />
+    </td>
+<td colspan=2 class="darkback" align=center>
+<div class='SEALS'>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><div align="center"><a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="trust check" src="https://secure.trust-guard.com/seals/435/business/header/" border="0"/></a>
+</div></td>
+<td><div align="center"><a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="certified seal" src="https://secure.trust-guard.com/seals/435/certified/header/" border="0"/></a>
+</div></td>
+<td><div align="center"><a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="privacy certified" src="https://secure.trust-guard.com/seals/435/privacy/header/" border="0"/></a>
+</div></td>
+<td><div align="center"><a name="trustlink" href="https://secure.trust-guard.com/certificates/smartlifelabs.com" target="_blank">
+<img name="trustseal" alt="security certified" src="https://secure.trust-guard.com/seals/435/security/header/" border="0"/></a>
+</div></td>
+</tr>
+</table>
+</div>
+
+<div>
+<br>
+<div class="bottomdiv">
+<a href="/Terms.aspx" target=_blank rel="nofollow">Terms &amp; Conditions</a> | <a href="/Privacy.aspx" target=_blank rel="nofollow">Privacy Policy</a> | <a href="/Site-Map.aspx">Site Map</a> | <a href='http://<%=Request.Url.Host%>/Hemorrhoid-Info.aspx'>Partners</a> |
+
+<a href="<%=GetOriginalUrl()%>"><%=MyTitle%></a> 
+<br><br><img src='/images/copy.gif' width=168 height=10>
+<br><br></div>
+</div>
+</td></tr>
+</table>
+
+</td><td class="rightsh" valign="top" width="1"></td></tr></table>
+
+
+<script>
+var img = document.location+'trackimg.aspx?OPTIMIZER=<%=Tacker.GetIDVisitor()%>';
+var mim = new Image(1,1);
+mim.src = img;
+</script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2737147-15']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+<script type="text/javascript">
+var gx=0;
+function DisplayChat(){if(gx == 0){window.scroll(0,0);
+window.location = "http://hemorrhoidforum.org/";
+;gx = 1;var m = ">>>>>>>>>>>>>> WAIT WAIT WAIT <<<<<<<<<<<<<<<\n\nVisit our HEMORRHOID SUPPORT FORUM\nSimply CLICK THE (CANCEL) button!\n";
+return m;}}
+function DisableVSAChat(){gx=1;}
+//window.onload = function(){var a = document.getElementsByTagName('A');for (var i=0;i<a.length;i++){a[i].onclick=function(){gx=1;}}};
+//window.onbeforeunload = DisplayChat; 
+</script>
+
+<!-- Retargeting-->
+<iframe src="http://pixel.sitescout.com/ap/4fa1dc8d9a1c73fc?if=1" width="0" height="0" frameBorder="0" scrolling="no"></iframe>
+
+<!-- Google Code for Calmovil Retargeting List Remarketing List -->
+<script>
+var img = 'http://www.googleadservices.com/pagead/conversion/1072320777/?label=FRWmCPr9qAIQiaKp_wM&amp;guid=ON&amp;script=0';
+var mim = new Image(1,1);
+mim.src = img;
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="
+http://www.googleadservices.com/pagead/conversion/1072320777/?label=FRWmCPr9qAIQiaKp_wM&amp;guid=ON&amp;script=0
+"/>
+</div>
+</noscript>
+
+
+
+<script type="text/javascript">
+(function(d, t) {
+var g = d.createElement(t),
+s = d.getElementsByTagName(t)[0];
+g.src = '//a.remarketstats.com/px/?c=1e2e802a606902d';
+s.parentNode.insertBefore(g, s);
+}(document, 'script'));
+</script>
+
+
+
+</body>
+
+</html>
+
+<script runat=server>
+
+    protected override void OnPreRender(EventArgs e)
+    {
+        base.OnPreRender(e);
+
+        Page.Title = this.MyTitle;
+        
+    }
+
+    public string MyTitle
+    {
+        get
+        {
+            string Keyword = Request["KEYWORD"]; //goodle adwords keyword localhost/k/keyword.aspx
+
+            if (Keyword != null)
+            {
+                return System.Globalization.CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Keyword.Replace("_"," ").Replace("-"," "));
+            }
+            else
+            {
+                if (Request.Url.Host.ToLower().Contains("cure"))
+                {
+		//not allowed by google
+                    return "Hemorrhoid Remedy";
+                }
+            }
+            return Page.Title;
+        }
+    }
+
+    public string TitlePlus(string add)
+    {
+        string t = MyTitle;
+        if (t==null || t == "") return "";
+        return t + add;
+    }
+
+    public string TitlePlus(string add,string tail)
+    {
+        return TitlePlus(add) + tail;
+    }
+    
+    protected override void OnLoad(EventArgs e)
+    {
+        base.OnLoad(e);
+
+        //Table_A.Visible = true; //!Request.Url.Host.ToLower().Contains("cure");
+        //Table_B.Visible = !Table_A.Visible;
+
+        
+    }
+
+    public static string GetOriginalUrl()
+    {
+        return HttpContext.Current.Items["OriginalUrl"].ToString();
+    }
+
+
+</script>

@@ -1,0 +1,36 @@
+H1{font-size:18px}
+div{font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333333}
+td{font-family:Arial, Helvetica, sans-serif;font-size:13px;color:#333333}
+a{color:#075E80}
+.topnav{text-decoration:none}
+.topnav:active{color:#E74C00}
+.topnav:hover{color:#E74C00}
+.ING{font-size:15px}
+.bene{font-size:15px;padding-top:4px;color:black;font-weight:bold}
+.beneB{font-size:15px;padding-top:4px;padding-bottom:4px;color:black;font-weight:bold;background: url(/images/check.gif) 0px center no-repeat;padding-left: 26px;}
+.TBUT{width:124px;text-align:center}
+.igotleftsidebg{background-image: url(/images/igotleftsidebg.jpg);background-repeat: repeat-y;}
+.igotrightsidebg{background-image: url(/images/igotrightbg.jpg);background-repeat: repeat-y;}
+.igottopbg{background-image: url(/images/igottopbg.jpg)}
+.igotbottombg{	background-image: url(/images/igotbottombg.jpg)}
+.bottomdiv{width:600px;color:white;font-size:11px;color:white}
+.bottomdiv a{color:#c0c0ff;}
+body {background-position-y:top;background-color:#1A779E;background-repeat:repeat-x;background-image:url(/images/bggradient.jpg)}
+.SHTOP{font-family:arial;font-weight:bold;font-size:14px;position:relative;top:98px;left:10px;color:white}
+.TOPLNK{width:620;position:relative;left:180;top:-1;color:White;font-weight:bold}
+.TOPLNK TD{width:124px;text-align:center}
+.TOPLNK A{text-decoration:none}
+.TOPLNK A:active{color:#E74C00}
+.TOPLNK A:hover{color:#E74C00}
+
+
+.yellow{background-color:Yellow;color:Black}
+.black {text-transform: capitalize;font-weight: bold;}
+.wpic {width: 282px;text-align: center;}
+.vatop{vertical-align: top;}
+.vamid{vertical-align: middle;}
+.vabottom{vertical-align:top;}
+.text-center{text-align: center;}
+.paddl38{padding-left:38px;font-size:19px}
+.paddl34 {padding-left: 34px;}
+.paddl38 strong{padding-left: 3px;}
