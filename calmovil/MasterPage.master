@@ -1,11 +1,16 @@
+<!doctype html>
 <%@ Master Language="C#" %>
 <%@ Register src="Tacker.ascx" tagname="Tacker" tagprefix="uc1" %>
 
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html>
 <head runat="server">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Hemorrhoid Treatment | Hemorrhoids Cure | Piles Treatments</title>
 <meta name="description" content="<%=TitlePlus(" - ","Calmovil is a natural hemorrhoid remedy that treats painful, itchy or bleeding hemorrhoids quickly and effectively. It''s scientifically formulated based on several clinical studies.") %>">
 <meta name="keywords" content="<%=TitlePlus(", ","hemorrhoids, hemorrhoid treatment, hemorrhoids cure, piles treatments, hemorrhoids relief, bleeding hemorrhoids, thrombosed hemorrhoids, external hemorrhoids, internal hemorrhoids") %>">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
 <link href="/style.css" rel="stylesheet" type="text/css">
 </head>
 <body leftmargin="0" topmargin="0" bottommargin="0">
@@ -49,7 +54,7 @@ H1{color:#10C028}
 </style>
 
 
-<table align="center" border="0" cellpadding="0" cellspacing="0">
+<table class="main" align="center" border="0" cellpadding="0" cellspacing="0">
 <tr><td class="leftshade" valign="top" width="1"></td><td>
 
 
