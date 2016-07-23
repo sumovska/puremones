@@ -1,13 +1,13 @@
 <%@ Control Language="C#" ClassName="OrderSpot" %>
 <h1 class="text-center">Purchase Calmovil Products with Confidence<br> with 60 Days Money Back Guarantee</h1>
 <br>
-<table cellpadding=0 cellspacing=0 border=0>
+<table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
             <img src="/images/calmovil_relif.jpg" alt="Calmovil relif" width="104" height="326" />
         </td>
         <td class="vabottom">
-            <strong class="paddl38">Hemorrhoid Relief Drops</strong><br><br>
+            <strong class="paddl38">Hemorrhoid Relief Drops</strong><br class="mobile-hidden"><br class="mobile-hidden">
 as per homeopathic Materia Medica used for<br>
             <ul>
                 <li><strong>Burning or aching in anus &dagger;</strong></li>
@@ -31,13 +31,13 @@ as per homeopathic Materia Medica used for<br>
     </tr>
 </table>
 <br><br><br>
-<table cellpadding=0 cellspacing=0 border=0>
+<table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
             <img class="img-wide" src="/images/calmovil_colon_s.jpg" alt="Calmovil relif s" width="282" height="244" />
         </td>
         <td class="vabottom">
-            <strong class="paddl38">Healthy Colon Formula</strong><br><br>
+            <strong class="paddl38">Healthy Colon Formula</strong><br><br class="mobile-hidden">
 
             <ul>
                 <li><strong>Promotes better blood flow *</strong></li>

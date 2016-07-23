@@ -78,8 +78,8 @@ People's first reaction is to buy the infamous well known hemorrhoid cream. Unfo
 <div align=center><img src="/images/div.gif" /></div><br /><br class="mobile-hidden" /><br class="mobile-hidden" />
 
 
-<h1 class="black">calmovil hemorrhoid relief</h1><br><br class="mobile-hidden">
-<table cellpadding=0 cellspacing=0 border=0>
+<h1 class="black mobile-hidden">calmovil hemorrhoid relief</h1><br><br class="mobile-hidden">
+<table class="mobile-hidden" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
             <img src="/images/calmovil_relif.jpg" alt="Calmovil relif" width="104" height="326" />
@@ -108,11 +108,11 @@ United States (HPUS), which is an FDA-recognized compendium for homeopathic medi
 
 </div>
 
-<br>
+<br class="mobile-hidden">
 <br class="mobile-hidden">
 
 <h1 class="black">Calmovil Healthy Colon Formula</h1>
-<table cellpadding=0 cellspacing=0 border=0 style="width:99%;">
+<table class="product" cellpadding=0 cellspacing=0 border=0 style="width:99%;">
     <tr>
         <td class="wpic">
             <img class="img-wide" src="/images/calmovil_colon.jpg" alt="Calmovil colon" width="209" height="279" />
@@ -172,7 +172,7 @@ United States (HPUS), which is an FDA-recognized compendium for homeopathic medi
         <td valign=top>
             In this e-book, you'll learn <strong>20 key tips to stop hemorrhoids forever</strong>.
             These tips cover diet, exercise, pain reduction, hygiene and what to do during flare-ups.
-            This <strong>no-nonsense</strong> e-book is a lesson on simple lifestyle changes. <br />
+            This <strong>no-nonsense</strong> e-book is a lesson on simple lifestyle changes. <br  />
             <br />
             Valuable advice on<br />
             <ul>
@@ -206,14 +206,14 @@ When taken as directed and following the advice in our eBook you should notice a
 
 
 <h1>Calmovil Side Effects</h1>
-Product safety is our #1 priority. Calmovil™ products contain only natural extracts from herbs and plants that are generally considered safe. Our customers have been using Calmovil products every day and so far no adverse events (side effects) have been reported. As with other products you should not use Calmovil products if you are pregnant or nursing because the effects on fetus have not been evaluated. You should not take Calmovil Healthy Colon formula if you have a bleeding disorder or are taking blood thinning medication. <br><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden">
+Product safety is our #1 priority. Calmovil™ products contain only natural extracts from herbs and plants that are generally considered safe. Our customers have been using Calmovil products every day and so far no adverse events (side effects) have been reported. As with other products you should not use Calmovil products if you are pregnant or nursing because the effects on fetus have not been evaluated. You should not take Calmovil Healthy Colon formula if you have a bleeding disorder or are taking blood thinning medication. <br><br><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden">
 
 
 
 
 
 <h1>Ingredients in Calmovil Hemorrhoid Relief</h1>
-<strong>Calmovil Hemorrhoid Relief drops is a homeopathic medicine</strong> that contains active ingredients that are listed in the Homeopathic Pharmacopeia of the United States (HPUS).<br><br>
+<span class="mobile-hidden"><strong>Calmovil Hemorrhoid Relief drops is a homeopathic medicine</strong> that contains active ingredients that are listed in the Homeopathic Pharmacopeia of the United States (HPUS).</span><br class="mobile-hidden"><br class="mobile-hidden">
 
 Active ingredients purpose as per homeopathic Materia Medica &#8224;<br><br>
 
@@ -364,10 +364,10 @@ Equal volumes of each ingredient in 10X, 30X, and LM1 potencies. <br><br>
         </tr>
     </tbody>
 </table>
-                                  <br>
+                                  <br class="mobile-hidden">
 <div class="mobile-hidden" align="left">If you're not satisfied, simply send us your unused portion and we'll promptly return <strong>EVERY PENNY</strong>, including original shipping costs.<br>
 </div>
-                                  <br>
+                                  <br class="mobile-hidden">
                                   <table width="410" cellspacing="0" cellpadding="0" border="0" align="center">
                             <tbody><tr>
                               <td width="30" valign="middle" align="left"><img width="20" height="18" src="/images/index_clip_image001.gif"></td>
@@ -405,7 +405,7 @@ Equal volumes of each ingredient in 10X, 30X, and LM1 potencies. <br><br>
             <img width="40" height="114" alt="" src="/images/cert_bot1.gif"></td>
         <td width="100%" valign="top" style="padding-top:0px;background-image: url(/images/cert_bot3.gif)">
 
-            <table cellspacing="0" cellpadding="0" align="center" style="padding-left:30px;padding-top:0px"><tbody><tr><td>
+            <table class="mobile-hidden" cellspacing="0" cellpadding="0" align="center" style="padding-left:30px;padding-top:0px"><tbody><tr><td>
                 Sincerely,<br>
             <img width="149" height="39" src="/images/signature2.gif"><br>
             </td></tr></tbody></table>
