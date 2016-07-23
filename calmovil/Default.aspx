@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Hemorrhoids Treatment | Calmovil Natural Hemorrhoid Remedy" Language="C#" MasterPageFile="~/MasterPage.master" %>
+﻿
+<%@ Page Title="Hemorrhoids Treatment | Calmovil Natural Hemorrhoid Remedy" Language="C#" MasterPageFile="~/MasterPage.master" %>
 
 <%@ Register Src="testemonial.ascx" TagName="testemonial" TagPrefix="uc3" %>
 
@@ -9,14 +10,15 @@
 <%@ Register Src="Disclaimers.ascx" TagName="Disclaimers" TagPrefix="uc1" %>
 
 <%-- Add content controls here --%>
+
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 
 
 <uc4:subscribe ID="subscribe1" runat="server" IsPopup="True" Visible="false"/>
 <asp:PlaceHolder ID="yellow" runat="server">
 </asp:PlaceHolder>
-
-<br/><br class="mobile-hidden"/>
+<div class="mobile-hidden">
+<br/><br/>
 <h1><%=Headline %></h1>
 Hemorrhoids are embarrassing. The fact is, most people will get a hemorrhoid flare-up at some point in their life. A painful lump on your butt or the sight of blood is frightening. You panic and ask, "do I have cancer"?<br /><br />
 The good news: in most cases it's just a swollen vein - a hemorrhoid. It hurts but is not life threatening. <br><br>
@@ -76,16 +78,16 @@ People's first reaction is to buy the infamous well known hemorrhoid cream. Unfo
 
 
 <div align=center><img src="/images/div.gif" /></div><br /><br class="mobile-hidden" /><br class="mobile-hidden" />
+</div>
 
-
-<h1 class="black mobile-hidden">calmovil hemorrhoid relief</h1><br><br class="mobile-hidden">
-<table class="mobile-hidden" cellpadding=0 cellspacing=0 border=0>
+<h1 class="black">calmovil hemorrhoid relief</h1><br><br class="mobile-hidden">
+<table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
             <img src="/images/calmovil_relif.jpg" alt="Calmovil relif" width="104" height="326" />
         </td>
         <td class="vatop" style="padding-top:5px;">
-            <strong>Calmovil Hemorrhoid Relief is a pharmaceutical grade homeopathic medicine</strong> formulated to relieve discomfort associated with hemorrhoids.<br /><br>
+            <span><strong>Calmovil Hemorrhoid Relief is a pharmaceutical grade homeopathic medicine</strong> formulated to relieve discomfort associated with hemorrhoids.</span><br /><br>
             Used for relief of hemorrhoid symptoms &dagger;<br>
             <ul>
                 <li>Burning or aching in anus &dagger;</li>
@@ -95,16 +97,16 @@ People's first reaction is to buy the infamous well known hemorrhoid cream. Unfo
                 <li>Blind or protruding hemorrhoids &dagger;</li>
             </ul>
            
-<br><br>
-Calmovil Hemorrhoid Relief is a non-prescrition homeopathic medicine, formulated with officially recognized
+<br><br class="mobile-hidden">
+<span>Calmovil Hemorrhoid Relief is a non-prescrition homeopathic medicine, formulated with officially recognized
 active homeopathic ingredients, as listed in the Homeopathic Pharmacopoeia of the
-United States (HPUS), which is an FDA-recognized compendium for homeopathic medicine.
+United States (HPUS), which is an FDA-recognized compendium for homeopathic medicine.</span>
 
         </td>
     </tr>
 </table>
 <div style='padding-bottom:16px'>
-&dagger; No statements or other information contained on this Website have been evaluated or approved by the Food and Drug Administration (FDA). These statements are based upon traditional homeopathic practice. Homeopathic remedies may not be effective for everyone. Not every user will experience relief for one or more of the symptoms intended to be treated by any product promoted on this website. Use this product after diagnosis by a physician and under the supervision of a physician. Always use our natural products as a complement to your physician’s guidance and counsel. 
+&dagger; No statements or other information contained on this Website have been evaluated or approved by the Food and Drug Administration (FDA). These statements are based upon traditional homeopathic practice. Homeopathic remedies may not be effective for everyone. Not every user will experience relief for one or more of the symptoms intended to be treated by any product promoted on this website. Use this product after diagnosis by a physician and under the supervision of a physician. Always use our natural products as a complement to your physician’s guidance and counsel.
 
 </div>
 
@@ -213,7 +215,7 @@ Product safety is our #1 priority. Calmovil™ products contain only natural ext
 
 
 <h1>Ingredients in Calmovil Hemorrhoid Relief</h1>
-<span class="mobile-hidden"><strong>Calmovil Hemorrhoid Relief drops is a homeopathic medicine</strong> that contains active ingredients that are listed in the Homeopathic Pharmacopeia of the United States (HPUS).</span><br class="mobile-hidden"><br class="mobile-hidden">
+<strong>Calmovil Hemorrhoid Relief drops is a homeopathic medicine</strong> that contains active ingredients that are listed in the Homeopathic Pharmacopeia of the United States (HPUS).<br class="mobile-hidden"><br class="mobile-hidden">
 
 Active ingredients purpose as per homeopathic Materia Medica &#8224;<br><br>
 
