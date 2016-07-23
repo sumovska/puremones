@@ -82,14 +82,15 @@ body {min-width: 320px;}
   .product, .product tbody, .product tr, .product td, .table-order, .table-order tbody, .table-order tr, .table-order td { display: block;}
   .product .wpic, .table-order td[width="180"] { float: left; }
   .table-order td[width="180"] { width: auto; min-width: 150px; padding-right: 20px; }
-  .wpic { width: auto; min-width: 180px; padding-bottom: 20px; }
-  .wpic img {max-width: 80px; height: auto;}
-  .wpic .img-wide { max-width: 160px; float: left; }
+  .wpic { width: auto; min-width: 180px; padding-bottom: 20px; margin-right: 15px; }
+  .wpic img { width: 124px; height: auto;}
+  .wpic .img-wide { width: 280px; float: left; }
   .table-order td[width="180"] img { max-width: 100%; height: auto;}
 }
 @media (max-width: 567px) {
   img[width="538"], img[src="/images/div.gif"] { width: auto; max-width: 100%; height: auto; }
-  .vabottom .paddl38, .vabottom .paddl34 { padding-left: 0; width: 100%; text-align: center; display: block; }
+  .vabottom .paddl38, .vabottom .paddl34 { padding-left: 0; width: 100%; }
+  .vabottom .paddl34 { text-align: center; display: block; }
   .sitelink { position: absolute; margin-top: -20px;}
   .contacts { padding-top: 20px; }
   .OrderButtonSmall { width: 290px; height: auto;}
