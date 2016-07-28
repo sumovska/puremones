@@ -33,8 +33,8 @@ as per homeopathic Materia Medica used for<br>
 <br><br><br>
 <table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
-        <td class="wpic">
-            <img class="img-wide" src="/images/calmovil_colon_s.jpg" alt="Calmovil relif s" width="282" height="244" />
+        <td class="wpic wpic-wide">
+            <img src="/images/calmovil_colon_s.jpg" alt="Calmovil relif s" width="282" height="244" />
         </td>
         <td class="vabottom">
             <strong class="paddl38">Healthy Colon Formula</strong><br><br class="mobile-hidden">

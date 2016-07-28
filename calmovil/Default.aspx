@@ -116,8 +116,8 @@ United States (HPUS), which is an FDA-recognized compendium for homeopathic medi
 <h1 class="black">Calmovil Healthy Colon Formula</h1>
 <table class="product" cellpadding=0 cellspacing=0 border=0 style="width:99%;">
     <tr>
-        <td class="wpic">
-            <img class="img-wide" src="/images/calmovil_colon.jpg" alt="Calmovil colon" width="209" height="279" />
+        <td class="wpic wpic-wide">
+            <img src="/images/calmovil_colon.jpg" alt="Calmovil colon" width="209" height="279" />
         </td>
         <td class="vatop" style="padding-top:29px;">
             <strong>Calmovil Healthy Colon Formula is dietary supplement</strong> that was formulated to support colon health in several ways *<br />
