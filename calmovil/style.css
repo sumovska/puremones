@@ -44,6 +44,8 @@ br + h1 { margin-top: 0; }
 body {min-width: 320px;}
 .table-guarantee img[src="/images/cert_bottom_07.gif"] { margin-top: -3px;}
 .bg_header .logo-mobile { display: none;}
+.product-block, .product-block tbody, .product-block tr, .product-block td { display: block;}
+.wpickit img {max-width: 90%;}
 /* ==========================================================================
    _RESPONSIVE
    ========================================================================== */
@@ -100,6 +102,7 @@ body {min-width: 320px;}
   .wpic-wide img { width: 280px; float: left; }
   .table-order td[width="180"] img { max-width: 100%; height: auto;}
   .kitimg, .wpickit, .kitimg img, .wpickit img { max-width: 100%; height: auto; }
+  .wpic-wide { width: 100%; margin-right: 0;}
 }
 @media (max-width: 567px) {
   img[width="538"], img[src="/images/div.gif"] { width: auto; max-width: 100%; height: auto; }
@@ -108,7 +111,6 @@ body {min-width: 320px;}
   .sitelink { position: absolute; margin-top: -20px;}
   .contacts { padding-top: 20px; }
   .OrderButtonSmall { width: 290px; height: auto;}
-  .wpic-wide { width: 100%;}
 }
 @media (max-width: 374px) {
   .wpic, .table-order td[width="180"] { width: 0;}

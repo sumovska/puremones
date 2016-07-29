@@ -80,11 +80,20 @@ People's first reaction is to buy the infamous well known hemorrhoid cream. Unfo
 <div align=center><img src="/images/div.gif" /></div><br /><br class="mobile-hidden" /><br class="mobile-hidden" />
 </div>
 
+<h1 class="black">Calmovil Hemorrhoid Relief Kit</h1><br><br class="mobile-hidden">
+
+    <img class="kitimg" src="/images/Calmovil-Drops-Cream-Supplement.jpg" width="406" height="440" />
+<div style="clear:both"></div>
+Calmovil Hemorrhoids Relief Kit is a complete solution for anyone suffering from hemorrhoids:<br /><br />
+<b>Hemorrhoid Relief Drops</b> are formulated to relieve pain, burning and itching. <br /><br />
+<b>Hemorrhoid Cooling Cream</b> helps soothe irritated hemorrhoids, cool down, reduce swelling, and protect tissue from inflammation. <br /><br />
+<b>Vein & Colon Formula</b> supports healthy veins and helps to calm and regulate the digestive system to relieve irritation from constipation or diarrhea. 
+    <br /><br /><br />
 <h1 class="black">calmovil hemorrhoid relief</h1><br><br class="mobile-hidden">
 <table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
-            <img src="/images/calmovil_relif.jpg" alt="Calmovil relif" width="104" height="326" />
+            <img src="/images/calmovil_relif.jpg" alt="Calmovil relif" width="154" height="480" />
         </td>
         <td class="vatop" style="padding-top:5px;">
             <span><strong>Calmovil Hemorrhoid Relief is a pharmaceutical grade homeopathic medicine</strong> formulated to relieve discomfort associated with hemorrhoids.</span><br /><br>
@@ -98,29 +107,27 @@ People's first reaction is to buy the infamous well known hemorrhoid cream. Unfo
             </ul>
            
 <br><br class="mobile-hidden">
-<span>Calmovil Hemorrhoid Relief is a non-prescrition homeopathic medicine, formulated with officially recognized
+<div style="clear:both"></div>
+Calmovil Hemorrhoid Relief is a non-prescrition homeopathic medicine, formulated with officially recognized
 active homeopathic ingredients, as listed in the Homeopathic Pharmacopoeia of the
-United States (HPUS), which is an FDA-recognized compendium for homeopathic medicine.</span>
+United States (HPUS), which is an FDA-recognized compendium for homeopathic medicine.
 
         </td>
     </tr>
 </table>
-<div style='padding-bottom:16px'>
-&dagger; No statements or other information contained on this Website have been evaluated or approved by the Food and Drug Administration (FDA). These statements are based upon traditional homeopathic practice. Homeopathic remedies may not be effective for everyone. Not every user will experience relief for one or more of the symptoms intended to be treated by any product promoted on this website. Use this product after diagnosis by a physician and under the supervision of a physician. Always use our natural products as a complement to your physician’s guidance and counsel.
-
-</div>
+<div style="clear:both;padding-bottom:22px"></div>
 
 <br class="mobile-hidden">
 <br class="mobile-hidden">
 
-<h1 class="black">Calmovil Healthy Colon Formula</h1>
-<table class="product" cellpadding=0 cellspacing=0 border=0 style="width:99%;">
+<h1 class="black">Calmovil Vein &amp; Colon Formula</h1>
+<table class="product product-block" cellpadding=0 cellspacing=0 border=0 style="width:99%;">
     <tr>
         <td class="wpic wpic-wide">
-            <img src="/images/calmovil_colon.jpg" alt="Calmovil colon" width="209" height="279" />
+            <img src="/images/calmovil-bottle-sidebyside.jpg" alt="Calmovil colon" width="502" height="517" />
         </td>
         <td class="vatop" style="padding-top:29px;">
-            <strong>Calmovil Healthy Colon Formula is dietary supplement</strong> that was formulated to support colon health in several ways *<br />
+            <strong>Calmovil Vein &amp; Colon Formula is dietary supplement</strong> that was formulated to support healthy veins and colon health in several ways *<br />
 
             <ul>
                 <li>It helps promote proper blood flow to promote faster healing *</li>
@@ -208,7 +215,7 @@ When taken as directed and following the advice in our eBook you should notice a
 
 
 <h1>Calmovil Side Effects</h1>
-Product safety is our #1 priority. Calmovil™ products contain only natural extracts from herbs and plants that are generally considered safe. Our customers have been using Calmovil products every day and so far no adverse events (side effects) have been reported. As with other products you should not use Calmovil products if you are pregnant or nursing because the effects on fetus have not been evaluated. You should not take Calmovil Healthy Colon formula if you have a bleeding disorder or are taking blood thinning medication. <br><br><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden">
+Product safety is our #1 priority. Calmovil™ products contain only natural extracts from herbs and plants that are generally considered safe. Our customers have been using Calmovil products every day and so far no adverse events (side effects) have been reported. As with other products you should not use Calmovil products if you are pregnant or nursing because the effects on fetus have not been evaluated. You should not take Calmovil Vein &amp; Colon formula if you have a bleeding disorder or are taking blood thinning medication. <br><br><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden"><br class="mobile-hidden">
 
 
 
@@ -240,8 +247,8 @@ Equal volumes of each ingredient in 10X, 30X, and LM1 potencies. <br><br>
 
 </div>
 
-<h1>Ingredients in Calmovil Healthy Colon Formula</h1>
-<strong>Calmovil Healthy Colon Formula is a dietary supplement that contains only natural ingredients from plants, trees or herbs.</strong> Most other supplements contain bioflavonoids only in very small amounts. You would need to take a large number of capsules to get the proper benefit. In only one capsule, Calmovil supplement delivers a powerful dose of 240 mg of pure Rutin/Diosmin/Hesperidin bioflavonoid mix. Calmovil supplement is the only product that contains Nattokinase enzyme, ensuring proper blood flow. <br><br>
+<h1>Ingredients in Calmovil Vein &amp; Colon Formula</h1>
+<strong>Calmovil Vein &amp; Colon Formula is a dietary supplement that contains only natural ingredients from plants, trees or herbs.</strong> Most other supplements contain bioflavonoids only in very small amounts. You would need to take a large number of capsules to get the proper benefit. In only one capsule, Calmovil supplement delivers a powerful dose of 240 mg of pure Rutin/Diosmin/Hesperidin bioflavonoid mix. Calmovil supplement is the only product that contains Nattokinase enzyme, ensuring proper blood flow. <br><br>
 
 
 

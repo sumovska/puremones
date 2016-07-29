@@ -1,6 +1,36 @@
 <%@ Control Language="C#" ClassName="OrderSpot" %>
 <h1 class="text-center">Purchase Calmovil Products with Confidence<br> with 60 Days Money Back Guarantee</h1>
 <br>
+
+<table class="product" cellpadding=0 cellspacing=0 border=0>
+    <tr>
+        <td class="wpickit">
+            <img src="/images/Calmovil-Drops-Cream-Supplement.jpg" alt="Calmovil relif" />
+        </td>
+        <td class="vabottom">
+            <strong class="paddl38">Hemorrhoid Relief Kit</strong><br class="mobile-hidden"><br class="mobile-hidden">
+            <ul>
+                <li><strong>Calmovil Hemorrhoid Relief Drops</strong></li>
+                <li><strong>Calmovil Cooling Cream</strong></li>
+                <li><strong>Calmovil Vein & Colon Formula</strong></li>
+            </ul>
+<a class="paddl38"  style='font-size:12px' href="#" onClick="MyWindow=window.open('/disclaimer.html','MyWindow','toolbar=no,location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=no,width=570,height=300'); return false;">Important product limitations.</a>
+
+	   <br><br>
+            <span class="paddl38" ><strong>$99.95</strong></span>
+            <br><br>
+ 
+            <span class="paddl34">
+                <a href="/PlaceOrder.aspx?sku=1016">
+                    <img class="OrderButtonSmall" border="0" src="/images/OrderButtonSmall_A.gif" width="211" height="56" alt="Click Here to Order">
+                </a>
+            </span>
+        </td>
+    </tr>
+</table>
+
+<br><br><br>
+
 <table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic">
@@ -23,21 +53,23 @@ as per homeopathic Materia Medica used for<br>
             <br><br>
  
             <span class="paddl34">
-                <a href="/PlaceOrder.aspx">
-                    <img class="OrderButtonSmall" border="0" src="/images/spacer2.jpg" width="211" height="56" alt="Click Here to Order">
+                <a href="/PlaceOrder.aspx?sku=1017">
+                    <img class="OrderButtonSmall" border="0" src="/images/OrderButtonSmall_A.gif" width="211" height="56" alt="Click Here to Order">
                 </a>
             </span>
         </td>
     </tr>
 </table>
+
 <br><br><br>
+
 <table class="product" cellpadding=0 cellspacing=0 border=0>
     <tr>
         <td class="wpic wpic-wide">
             <img src="/images/calmovil_colon_s.jpg" alt="Calmovil relif s" width="282" height="244" />
         </td>
         <td class="vabottom">
-            <strong class="paddl38">Healthy Colon Formula</strong><br><br class="mobile-hidden">
+            <strong class="paddl38">Vein &amp; Colon Formula</strong><br><br class="mobile-hidden">
 
             <ul>
                 <li><strong>Promotes better blood flow *</strong></li>
@@ -52,7 +84,7 @@ as per homeopathic Materia Medica used for<br>
             <br><br>
             <span class="paddl38">
                 <a href="/PlaceOrder.aspx">
-                    <img class="OrderButtonSmall" border="0" src="/images/spacer2.jpg" width="211" height="56" alt="Click Here to Order">
+                    <img class="OrderButtonSmall" border="0" src="/images/OrderButtonSmall_A.gif" width="211" height="56" alt="Click Here to Order">
                 </a>
             </span>
         </td>
